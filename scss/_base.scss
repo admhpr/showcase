@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     outline: none;
-    font-family: Open Sans, sans-serif;
+    font-family: $base;
 }
 
 h1,
@@ -21,7 +21,7 @@ h6,
 .h5,
 .h6 {
     font-weight: bold;
-    font-family: $main-font;
+    font-family: $main;
 }
 
 img {
@@ -40,7 +40,6 @@ body a.close-btn,
 body.section-show .close-btn {
     opacity: 1;
     z-index: 100;
-
     transition: opacity 0.4s 1.2s ease, background 0.3s ease;
     overflow: hidden;
 }
@@ -60,7 +59,7 @@ body.section-show .close-btn {
 .close-btn>span {
     height: 3px;
     width: 40px;
-    background: #bbb;
+    background: $secondary-color;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -74,7 +73,7 @@ body.section-show .close-btn {
     top: 0;
     width: 0;
     height: inherit;
-    background: #b7a389;
+    background: $highlight-color;
 }
 
 .close-btn>span:nth-of-type(1) {
@@ -109,7 +108,7 @@ body.section-show .close-btn {
 .section-header h2 {
     font-size: 32px;
     letter-spacing: 6px;
-    color: #333;
+    color: $black;
     margin-top: 0;
     margin-bottom: 35px;
     font-weight: 300;
@@ -127,7 +126,7 @@ body.section-show .close-btn {
 }
 
 .front-section {
-    background: #fff;
+    background: $white;
 }
 
 .section {
@@ -136,10 +135,10 @@ body.section-show .close-btn {
     right: 0;
     top: 0;
     bottom: 0;
-    border: solid 4px #bbb;
+    border: solid 4px $secondary-color;
     padding-top: 100px;
     z-index: -9;
-    background: #fff;
+    background: $white;
     overflow-y: auto;
     opacity: 0;
     visibility: hidden;
@@ -159,8 +158,8 @@ body.section-show .section.active {
 
 .footer {
     padding: 30px 0;
-    background: #fff;
-    border-top: solid 1px #f0f0f0;
+    background: $white;
+    border-top: solid 1px $grey;
 }
 
 .footer h4 {
@@ -169,8 +168,8 @@ body.section-show .section.active {
     margin: 0;
     margin-top: 3.5px;
     font-style: italic;
-    font-family: $creative-font;
-    color: #999;
+    font-family: $creative;
+    color: $grey-text;
 }
 
 .footer-social {
@@ -193,14 +192,12 @@ body.section-show .section.active {
     width: 26px;
     line-height: 26px;
     vertical-align: middle;
-
     transform: rotate(45deg);
-
     transition: all 0.3s ease-in-out;
     display: block;
     text-align: center;
-    color: #bbb;
-    background: #f0f0f0;
+    color: $secondary-color;
+    background: $grey;
     font-size: 0;
 }
 
@@ -222,8 +219,8 @@ body.section-show .section.active {
 }
 
 .footer-social>li>a:hover {
-    background: #b7a389;
-    color: #fff;
+    background: $highlight-color;
+    color: $white;
 }
 
 .section-block>.container,
@@ -233,4 +230,8 @@ body.section-show .section.active {
 
 .section-block {
     overflow: hidden;
+}
+
+#diamond-wrapper {
+    margin-top: -75px;
 }

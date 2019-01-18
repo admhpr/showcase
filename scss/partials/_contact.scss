@@ -12,7 +12,7 @@
 .form-control {
     padding: 10px;
     height: auto;
-    border: solid 1px #bbb;
+    border: solid 1px $secondary-color;
 
     box-shadow: none;
     border-radius: 0;
@@ -20,7 +20,7 @@
 }
 
 .form-control:focus {
-    border-color: #b7a389;
+    border-color: $highlight-color;
 
     box-shadow: none;
 }

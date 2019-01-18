@@ -42,7 +42,7 @@
     bottom: 0;
     background: #333;
     background: rgba(51, 51, 51, 0.8);
-    color: #fff;
+    color: $white;
     text-align: center;
     z-index: 10;
     opacity: 0;
@@ -85,7 +85,7 @@
 
 .portfolio-items>.item>.inner>.caption>.caption-inner>.links {
     list-style: none;
-    color: #fff;
+    color: $white;
 }
 
 .portfolio-items>.item>.inner>.caption>.caption-inner>.links>li {
@@ -117,8 +117,8 @@
     width: 30px;
     line-height: 30px;
     font-size: 0;
-    border: solid 1px #fff;
-    color: #fff;
+    border: solid 1px $white;
+    color: $white;
 
     transform: rotate(45deg);
 }
@@ -140,7 +140,7 @@
 }
 
 .portfolio-items>.item>.inner>.caption>.caption-inner>.links>li>a:hover {
-    background: #fff;
+    background: $white;
     background: rgba(255, 255, 255, 0.9);
     color: #333;
 }
@@ -184,7 +184,7 @@
 
 #portfolio-filters>ul>li>a {
     display: block;
-    color: #999;
+    color: $grey-text;
     text-decoration: none;
 }
 

@@ -14,7 +14,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
-    border-bottom: solid 1px #F0F0F0;
+    border-bottom: solid 1px $grey;
 }
 
 .basic-info .section-header {
@@ -23,7 +23,7 @@
 
 .about-info>p {
     line-height: 1.8em;
-    margin-top: -.4em;
+    margin-top: -0.4em;
 }
 
 .about-person-img {
@@ -46,7 +46,7 @@
 
 .info-list:before,
 .info-list:after {
-    content: ' ';
+    content: " ";
     display: table;
 }
 
@@ -99,20 +99,17 @@
 }
 
 .funfact:after {
-    content: ' ';
+    content: " ";
     position: absolute;
     height: 16px;
     width: 16px;
     right: -10px;
     top: 50%;
     margin-top: -10px;
-    border: solid 1px #FFF;
-
-
-
+    border: solid 1px $white;
 
     transform: rotate(45deg);
-    opacity: .4;
+    opacity: 0.4;
     filter: Alpha(opacity=40);
 }
 
@@ -134,17 +131,17 @@
 
 .funfact>.content>h4 {
     margin: 0;
-    color: #FFF;
+    color: $white;
     font-size: 55px;
     margin-bottom: 5px;
 }
 
 .funfact>.content>p {
-    color: #FFF;
+    color: $white;
     letter-spacing: 2px;
     margin-bottom: 0;
     font-size: 13px;
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .testimonials-block {
@@ -195,24 +192,20 @@
     height: 16px;
     width: 16px;
     border-radius: 0;
-    border: solid 1px #B7A389;
-
-
-
+    border: solid 1px $highlight-color;
 
     transform: rotate(-45deg);
     margin: 11px;
     background: transparent;
-    opacity: .6;
+    opacity: 0.6;
 
-
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .testimonials-slider .owl-controls>.owl-pagination>.owl-page.active>span,
 .testimonials-slider .owl-controls>.owl-pagination>.owl-page:hover>span {
-    background: #B7A389;
-    opacity: .8;
+    background: $highlight-color;
+    opacity: 0.8;
 }
 
 .testimonials-slider .owl-controls>.owl-pagination>.owl-page.active>span {

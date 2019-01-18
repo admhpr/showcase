@@ -8,7 +8,7 @@
 .services-block {
     padding-top: 50px;
     padding-bottom: 0;
-    border-bottom: solid 1px #F0F0F0;
+    border-bottom: solid 1px $grey;
 }
 
 .service {
@@ -18,10 +18,6 @@
 }
 
 .service>.icon {
-
-
-
-
     transform: rotate(45deg);
     height: 90px;
     width: 90px;
@@ -30,11 +26,10 @@
     text-align: center;
     margin: auto;
 
-
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     font-size: 0;
-    background: #B7A389;
-    color: #FFF;
+    background: $highlight-color;
+    color: $white;
     position: relative;
     top: 0;
 }
@@ -54,9 +49,6 @@
     line-height: inherit;
     height: inherit;
     width: inherit;
-
-
-
 
     transform: rotate(-45deg);
 }
@@ -84,11 +76,10 @@
 .pricing-table {
     max-width: 300px;
     margin: auto;
-    background: #F4F4F4;
+    background: #f4f4f4;
     padding: 35px 0;
 
-
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .pricing-table>.header>h4 {
@@ -140,18 +131,17 @@
 .pricing-table>.table-btn {
     padding: 11px 22px;
     background: #333;
-    color: #FFF;
+    color: $white;
     text-decoration: none;
     display: inline-block;
     *display: inline;
     *zoom: 1;
 
-
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 .pricing-table>.table-btn:hover {
-    background: #B7A389;
+    background: $highlight-color;
 }
 
 .process-block {
@@ -176,20 +166,16 @@
     margin-bottom: 15px;
     position: relative;
 
-
-
-
     transform: rotate(45deg);
-    border: solid 1px #B7A389;
+    border: solid 1px $highlight-color;
 
-
-    transition: all .3s ease-in-out;
-    color: #B7A389;
+    transition: all 0.3s ease-in-out;
+    color: $highlight-color;
 }
 
 .process:hover>.number {
-    color: #FFF;
-    background: #B7A389;
+    color: $white;
+    background: $highlight-color;
 }
 
 .process>.number>span {
@@ -203,10 +189,10 @@
 }
 
 .process>.number>span:before {
-    content: ' ';
+    content: " ";
     border-top: solid 8px transparent;
     border-bottom: solid 8px transparent;
-    border-left: solid 8px #B7A389;
+    border-left: solid 8px $highlight-color;
     position: absolute;
     top: 50%;
     margin-top: -8px;
@@ -214,15 +200,15 @@
 }
 
 .process.last>.number>span:before {
-    border: solid 4px #B7A389;
+    border: solid 4px $highlight-color;
     margin-top: -4px;
 }
 
 .process>.number>span:after {
-    content: ' ';
+    content: " ";
     position: absolute;
     height: 2px;
-    background: #B7A389;
+    background: $highlight-color;
     width: 30px;
     right: -35px;
     top: 50%;

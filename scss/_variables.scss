@@ -4,11 +4,26 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,600,300|Playfair+Display:700italic,400italic|Crimson+Text:400italic,600italic|Open+Sans:400,700);
 
-$creative-font: 'Playfair Display',
+$creative: 'Playfair Display',
 serif;
-
-$main-font: 'Raleway',
+$base: 'Open Sans',
 sans-serif;
-
-$secondary-font: 'Crimson Text',
+$main: 'Raleway',
+sans-serif;
+$secondary: 'Crimson Text',
 serif;
+
+
+/*=======================================================================
+	Colours
+=======================================================================*/
+
+$secondary-color: #bbb;
+$highlight-color: #b7a389;
+
+
+$light-grey: #ccc;
+$grey-text: #999;
+$grey: #f0f0f0;
+$black: #333;
+$white:#fff;

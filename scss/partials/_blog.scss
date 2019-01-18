@@ -36,7 +36,7 @@
 }
 
 .post>.content>h4>a:hover {
-    color: #b7a389;
+    color: $highlight-color;
 }
 
 .post>.content>p {
@@ -75,7 +75,7 @@
 }
 
 .post .read-more:hover {
-    color: #b7a389;
+    color: $highlight-color;
 }
 
 .post .read-more>i {
@@ -97,7 +97,7 @@ body .symp-btn {
     *zoom: 1;
     padding: 12px 22px;
     background: #333;
-    color: #fff;
+    color: $white;
 
     transition: all 0.3s ease;
     border: none;
@@ -106,13 +106,13 @@ body .symp-btn {
 
 .post-more .more-link:hover,
 .symp-btn:hover {
-    background: #b7a389;
-    color: #fff;
+    background: $highlight-color;
+    color: $white;
 }
 
 .symp-btn.link-btn {
     background: transparent;
-    color: #999;
+    color: $grey-text;
 }
 
 .symp-btn.link-btn>i {
@@ -146,14 +146,14 @@ body .symp-btn {
     height: 40px;
     line-height: 40px;
     padding-right: 47px;
-    background: #f0f0f0;
-    border: solid 1px #f0f0f0;
+    background: $grey;
+    border: solid 1px $grey;
 
     transition: all 0.3s ease;
 }
 
 .search-box>.search-input:focus {
-    background: #fff;
+    background: $white;
 }
 
 .search-box>.search-btn {
@@ -204,7 +204,7 @@ body .symp-btn {
 }
 
 .sidebar-list>li>a:hover {
-    color: #b7a389;
+    color: $highlight-color;
 }
 
 .sidebar-list.list-inline {

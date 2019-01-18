@@ -12,11 +12,11 @@ body.section-show .transition-mask {
     z-index: 22;
     transform: rotate(45deg);
     overflow: hidden;
-    animation: fill2 .8s .4s both ease;
+    animation: fill2 0.8s 0.4s both ease;
 }
 
 body .transition-mask:before {
-    content: ' ';
+    content: " ";
     position: absolute;
     bottom: 0;
     right: 0;
@@ -25,10 +25,8 @@ body .transition-mask:before {
 }
 
 body.section-show .transition-mask:before {
-
-
-    animation: fill .4s both ease;
-    background: #CCC;
+    animation: fill 0.4s both ease;
+    background: $light-grey;
 }
 
 @keyframes fill2 {
@@ -57,7 +55,6 @@ body.section-show .transition-mask:before {
 }
 
 .front-section {
-    padding-top: 60px;
     padding-bottom: 200px;
     position: relative;
 }
@@ -78,8 +75,8 @@ body.section-show .transition-mask:before {
     *display: inline;
     *zoom: 1;
     z-index: 10;
-    color: #999;
-    font-family: $creative-font;
+    color: $grey-text;
+    font-family: $creative;
     font-style: italic;
 }
 
@@ -87,21 +84,23 @@ body.section-show .transition-mask:before {
     width: 500px;
     height: 500px;
     overflow: hidden;
-    background: #F0F0F0;
+    background: $grey;
     position: relative;
     z-index: 15;
-    transition: height .5s .3s ease, transform .5s .8s ease;
+    transition: height 0.5s 0.3s ease, transform 0.5s 0.8s ease;
     margin: 200px auto;
     margin-bottom: 0;
     transform: rotate(405deg);
-    border-radius: 0;
+    border-left: solid 10px #c7ad88;
+    border-right: solid 10px #ede9ce;
+    border-bottom: solid 10px #64706c;
+    border-top: solid 10px #935347;
 }
 
 .front-person-img>img {
     width: 500px;
     height: 500px;
     overflow: hidden;
-    background: #F0F0F0;
     position: relative;
     padding: 50px;
     transform: rotate(-90deg);
@@ -123,7 +122,7 @@ body.section-show .transition-mask:before {
     display: block;
     width: 100%;
     font-family: Hind, sans-serif;
-    color: #CCC;
+    color: $light-grey;
     text-align: center;
     font-size: 24px;
     letter-spacing: 25px;
@@ -185,11 +184,9 @@ body.section-show .transition-mask:before {
     font-size: 14px;
     padding: 25px 0;
     cursor: pointer;
-
-
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     position: relative;
-    color: #999;
+    color: $grey-text;
     text-align: left;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -199,17 +196,17 @@ body.section-show .transition-mask:before {
 
 .front-person-links>ul>li>a:before,
 .front-person-links>ul>li>a:after {
-    content: ' ';
+    content: " ";
     height: 6px;
     width: 15px;
-    background: #CCC;
+    background: $light-grey;
     display: inline-block;
     *display: inline;
     *zoom: 1;
     vertical-align: middle;
     margin-right: 15px;
     font-size: 0;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     display: none;
 }
 
@@ -220,11 +217,11 @@ body.section-show .transition-mask:before {
 }
 
 .front-person-links>ul>li>a:hover {
-    color: #B7A389;
+    color: $highlight-color;
 }
 
 .front-person-links>ul>li>a:hover:after,
 .front-person-links>ul>li>a:hover:before {
     width: 25px;
-    background: #999;
+    background: $grey-text;
 }
