@@ -1,0 +1,56 @@
+/*=======================================================================
+	Work Page
+=======================================================================*/
+.single-work {
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.work-info {
+    list-style: none;
+    margin: 0;
+    margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+    .work-info {
+        padding-left: 25px;
+        margin-top: 0;
+    }
+}
+
+.work-info>li {
+    margin-bottom: 55px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.work-info>li>h4>i {
+    margin-right: 8px;
+}
+
+.work-info>li>h4 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.work-info>li>p {
+    color: #777;
+}
+
+.work-content>.block {
+    margin-top: 60px;
+}
+
+.work-content>.block h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.work-content>.block p {
+    line-height: 1.9em;
+}

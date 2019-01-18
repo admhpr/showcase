@@ -1,0 +1,34 @@
+/*=======================================================================
+	Contact Section
+=======================================================================*/
+.contact-block {
+    padding-bottom: 100px;
+}
+
+.contact-section .section-header {
+    margin-bottom: 60px;
+}
+
+.form-control {
+    padding: 10px;
+    height: auto;
+    border: solid 1px #bbb;
+
+    box-shadow: none;
+    border-radius: 0;
+    vertical-align: middle;
+}
+
+.form-control:focus {
+    border-color: #b7a389;
+
+    box-shadow: none;
+}
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+}
+
+.contact-form .alert {
+    border-radius: 0;
+}

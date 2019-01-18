@@ -1,0 +1,241 @@
+/*=======================================================================
+	Services Section
+=======================================================================*/
+.services-section .main-title {
+    margin-bottom: 80px;
+}
+
+.services-block {
+    padding-top: 50px;
+    padding-bottom: 0;
+    border-bottom: solid 1px #F0F0F0;
+}
+
+.service {
+    position: relative;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.service>.icon {
+
+
+
+
+    transform: rotate(45deg);
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+
+
+    transition: all .3s ease-in-out;
+    font-size: 0;
+    background: #B7A389;
+    color: #FFF;
+    position: relative;
+    top: 0;
+}
+
+.service:hover>.icon {
+    top: -15px;
+}
+
+.service>.icon>i:before {
+    line-height: 1em;
+    vertical-align: middle;
+    font-size: 45px;
+}
+
+.service>.icon>i {
+    display: inline-block;
+    line-height: inherit;
+    height: inherit;
+    width: inherit;
+
+
+
+
+    transform: rotate(-45deg);
+}
+
+.service>.content>h4 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.service>.content>p {
+    line-height: 1.6em;
+    color: #777;
+}
+
+.pricing-block {
+    padding: 120px 0;
+}
+
+.pricing-block .section-header {
+    margin-bottom: 90px;
+}
+
+.pricing-table {
+    max-width: 300px;
+    margin: auto;
+    background: #F4F4F4;
+    padding: 35px 0;
+
+
+    transition: all .3s ease;
+}
+
+.pricing-table>.header>h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.pricing-table>.header>.price {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.pricing-table>.header>.price>span {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 1em;
+}
+
+.pricing-table>.header>.price>.currency {
+    vertical-align: top;
+    margin-top: 12px;
+}
+
+.pricing-table>.header>.price>.amount {
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.pricing-table>.header>.price>.period {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.pricing-table>.table-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.pricing-table>.table-items>li {
+    padding: 10px 0;
+}
+
+.pricing-table>.table-btn {
+    padding: 11px 22px;
+    background: #333;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+
+    transition: all .3s ease;
+}
+
+.pricing-table>.table-btn:hover {
+    background: #B7A389;
+}
+
+.process-block {
+    padding: 100px 0;
+}
+
+.process-block .section-header {
+    margin-bottom: 80px;
+}
+
+.process {
+    position: relative;
+}
+
+.process>.number {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    line-height: 1em;
+    margin-bottom: 15px;
+    position: relative;
+
+
+
+
+    transform: rotate(45deg);
+    border: solid 1px #B7A389;
+
+
+    transition: all .3s ease-in-out;
+    color: #B7A389;
+}
+
+.process:hover>.number {
+    color: #FFF;
+    background: #B7A389;
+}
+
+.process>.number>span {
+    transform: rotate(-45deg);
+    display: block;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    position: relative;
+}
+
+.process>.number>span:before {
+    content: ' ';
+    border-top: solid 8px transparent;
+    border-bottom: solid 8px transparent;
+    border-left: solid 8px #B7A389;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: -43px;
+}
+
+.process.last>.number>span:before {
+    border: solid 4px #B7A389;
+    margin-top: -4px;
+}
+
+.process>.number>span:after {
+    content: ' ';
+    position: absolute;
+    height: 2px;
+    background: #B7A389;
+    width: 30px;
+    right: -35px;
+    top: 50%;
+    margin-top: -1px;
+}
+
+.process>.content>h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.process>.content>p {
+    line-height: 1.7em;
+    color: #777;
+}
