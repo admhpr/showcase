@@ -91,10 +91,10 @@ body.section-show .transition-mask:before {
     margin: 200px auto;
     margin-bottom: 0;
     transform: rotate(405deg);
-    border-left: solid 10px #c7ad88;
-    border-right: solid 10px #ede9ce;
-    border-bottom: solid 10px #64706c;
-    border-top: solid 10px #935347;
+    border-left: solid 10px $accent-1;
+    border-right: solid 10px $accent-2;
+    border-bottom: solid 10px $accent-3;
+    border-top: solid 10px $accent-4;
 }
 
 .front-person-img>img {
