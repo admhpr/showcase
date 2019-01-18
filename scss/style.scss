@@ -242,11 +242,11 @@ body.section-show .section.active {
 
 @import "partials/preloader";
 @import "partials/front-section";
-@import "partials/about";
-@import "partials/resume";
-@import "partials/services";
+@import "partials/about/index";
+@import "partials/resume/index";
+@import "partials/services/index";
 @import "partials/blog";
-@import "partials/portfolio";
+@import "partials/portfolio/index";
 @import "partials/contact";
 @import "partials/single-post";
 
