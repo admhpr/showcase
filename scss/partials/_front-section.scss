@@ -131,21 +131,19 @@ body.section-show .transition-mask:before {
 }
 
 .front-person-titles>.t1 {
-    left: 5px;
     bottom: 0;
     transform: rotate(-90deg) translateY(-100%);
     transform-origin: 0% 0%;
 }
 
 .front-person-titles>.t2 {
-    top: 5px;
     left: 0;
     transform: translateY(-100%);
 }
 
 .front-person-titles>.t3 {
     left: 0;
-    bottom: 5px;
+    bottom: 2px;
     transform: translateY(100%) rotate(180deg);
 }
 
