@@ -133,7 +133,7 @@
 
     .front-person-img {
         width: 65%;
-        padding-top: 65%;
+        padding-top: 60%;
         height: 0;
         margin-top: 120px;
     }
@@ -141,9 +141,9 @@
     .front-person-img>img {
         transform: rotate(-90deg) translateY(0px);
         position: absolute;
-        height: 100px;
-        top: 0;
-        margin-top: 10px;
+        height: 120px;
         padding: 0;
+        top: 0;
+        margin-top: 15px;
     }
 }
