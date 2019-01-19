@@ -1,0 +1,149 @@
+/*=======================================================================
+	Responsive CSS
+=======================================================================*/
+@media (max-width:992px) {
+    .about-person-img {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .info-list>li {
+        width: 50%;
+    }
+
+    .front-section {
+        padding-bottom: 110px;
+    }
+
+    .front-heading>h2 {
+        font-size: 50px;
+    }
+
+    .front-person-img {
+        height: 360px;
+        width: 360px;
+    }
+
+    .front-person-img>img {
+
+
+
+
+        transform: rotate(-45deg) translateY(45px);
+    }
+
+    .front-person-links {
+
+
+
+
+        transform: rotate(0deg);
+        margin-top: 110px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .front-person-links>ul {
+        top: 0;
+        left: auto;
+        position: relative;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+
+
+
+
+        transform: none;
+    }
+
+    .front-person-links>ul>li {
+        margin-bottom: 1px;
+        display: block;
+    }
+
+    .front-person-links>ul>li>a:before,
+    .front-person-links>ul>li>a:after {
+        position: absolute;
+        left: 0;
+        height: 2px;
+        top: 50%;
+        margin-top: -1px;
+        display: block;
+
+
+        box-shadow: none;
+        opacity: .5;
+        display: none;
+    }
+
+    .front-person-links>ul>li>a:after {
+        left: auto;
+        right: 0;
+    }
+
+    .front-person-links>ul>li>a:hover:before {
+        width: 15px;
+    }
+
+    .front-person-links>ul>li>a {
+        text-align: center;
+        padding: 22px 48px;
+        display: block;
+        font-size: 22px;
+        letter-spacing: 2px;
+        text-transform: none;
+    }
+
+    .front-person-titles {
+        margin-top: 125px;
+        transform: none;
+        text-align: center;
+        width: 80%;
+        height: auto;
+        opacity: 1;
+    }
+
+    .front-person-titles>span {
+        position: relative;
+        transform: none !important;
+        display: block;
+        margin: 25px 0;
+        letter-spacing: 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        top: auto !important;
+        left: auto !important;
+        bottom: auto !important;
+    }
+
+    .front-heading {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .front-person-links {
+        margin-top: 65px;
+    }
+
+    .front-person-img {
+        width: 65%;
+        padding-top: 65%;
+        height: 0;
+        margin-top: 120px;
+    }
+
+    .front-person-img>img {
+        transform: rotate(-90deg) translateY(0px);
+        position: absolute;
+        height: 100px;
+        top: 0;
+        margin-top: 10px;
+        padding: 0;
+    }
+}
