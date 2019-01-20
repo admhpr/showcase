@@ -234,6 +234,7 @@
           </div>
         </div>
       </div>
+      <social-links></social-links>
     </section>
     <close-btn/>
   </div>
@@ -241,9 +242,11 @@
 
 <script>
 import CloseBtn from "~/components/CloseBtn";
+import SocialLinks from "~/components/SocialLinks";
 export default {
   components: {
-    CloseBtn
+    CloseBtn,
+    SocialLinks
   }
 };
 </script>

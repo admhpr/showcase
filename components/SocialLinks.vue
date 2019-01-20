@@ -10,7 +10,7 @@
           <ul class="footer-social">
             <li>
               <a href="#">
-                <i class="ion-social-github"></i>
+                <font-awesome-icon :icon="['fab', 'github']"></font-awesome-icon>
               </a>
             </li>
             <li>
