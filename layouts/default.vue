@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
-import Footer from "~/components/Footer";
+import Footer from "~/components/layout/Footer";
 export default {
   head: {
     meta: [{ name: "viewpart", content: "width=device-width, initial-scale=1" }]

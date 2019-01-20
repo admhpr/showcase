@@ -201,7 +201,7 @@
         </div>
       </div>
 
-      <div class="funfacts-block section-block" data-stellar-background-ratio=".2">
+      <div class="funfacts-block section-block">
         <div class="container">
           <div class="row">
             <div class="col-md-3 col-sm-6 funfact">
@@ -241,8 +241,8 @@
 </template>
 
 <script>
-import CloseBtn from "~/components/CloseBtn";
-import SocialLinks from "~/components/SocialLinks";
+import CloseBtn from "~/components/utils/CloseBtn";
+import SocialLinks from "~/components/utils/SocialLinks";
 export default {
   components: {
     CloseBtn,

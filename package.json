@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "webpack --config webpack.dev.js --watch",
-    "build": "webpack --config webpack.prod.js",
-    "nuxt": "nuxt dev"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "serve": "nuxt start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
