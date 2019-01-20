@@ -1,31 +1,11 @@
 export default {
   css: [
-    '@/assets/scss/style.scss'
+    '@/assets/scss/style.scss',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
-  script: [{
-      src: '/js/jquery.min.js'
-    },
-    {
-      src: '/js/jquery.stellar.min.js'
-    },
-    {
-      src: '/js/owl.carousel.min.js'
-    },
-    {
-      src: '/js/jquery.shuffle.min.js'
-    },
-    {
-      src: '/js/jquery.magnific-popup.min.js'
-    },
-    {
-      src: '/js/validator.min.js'
-    },
-    {
-      src: '/js/smoothscroll.js'
-    },
-    {
-      src: '/js/script.js'
-    }
+  script: [],
+  plugins: [
+    '~/plugins/fontawesome.js'
   ],
   transition: {
     name: 'fade',
