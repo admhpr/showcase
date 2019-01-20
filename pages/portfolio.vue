@@ -33,7 +33,7 @@
         </div>
 
         <div id="portfolio-grid" class="portfolio-items">
-          <div class="item" data-groups="["all","web","photography"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/1.jpg">
 
@@ -59,7 +59,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","photography","tech"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/2.jpg">
 
@@ -85,7 +85,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","web","tech"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/3.jpg">
 
@@ -111,7 +111,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","web"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/4.jpg">
 
@@ -137,7 +137,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","tech"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/5.jpg">
 
@@ -163,7 +163,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","photography"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/6.jpg">
 
@@ -189,7 +189,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","web"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/7.jpg">
 
@@ -215,7 +215,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","tech"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/8.jpg">
 
@@ -241,7 +241,7 @@
             </div>
           </div>
 
-          <div class="item" data-groups="["all","photography"]">
+          <div class="item">
             <div class="inner">
               <img alt="symp" src="img/portfolio/9.jpg">
 

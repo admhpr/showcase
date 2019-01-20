@@ -1,11 +1,11 @@
 <template>
-  <div>NUXT
+  <div class="section-show">NUXT
     <nuxt/>
     <footer/>
   </div>
 </template>
 <script>
-import Footer from "~/components/footer";
+import Footer from "~/components/Footer";
 export default {
   head: {
     meta: [{ name: "viewpart", content: "width=device-width, initial-scale=1" }]

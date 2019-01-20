@@ -1,3 +1,7 @@
+//libs
+@import "libs/index.scss";
+
+
 // general
 @import "variables";
 @import "base";
@@ -14,3 +18,13 @@
 @import "partials/contact";
 @import "partials/single-post";
 @import "partials/responsive";
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.75s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}

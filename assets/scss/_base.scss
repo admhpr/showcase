@@ -37,7 +37,7 @@ body.section-show {
 }
 
 body a.close-btn,
-body.section-show .close-btn {
+.section-show .close-btn {
     opacity: 1;
     z-index: 100;
     transition: opacity 0.4s 1.2s ease, background 0.3s ease;
