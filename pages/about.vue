@@ -235,6 +235,7 @@
         </div>
       </div>
       <social-links></social-links>
+      <github-calendar></github-calendar>
     </section>
     <close-btn/>
   </div>
@@ -243,10 +244,12 @@
 <script>
 import CloseBtn from "~/components/utils/CloseBtn";
 import SocialLinks from "~/components/utils/SocialLinks";
+import GithubCalendar from "~/components/sections/GithubCalendar";
 export default {
   components: {
     CloseBtn,
-    SocialLinks
+    SocialLinks,
+    GithubCalendar
   }
 };
 </script>
