@@ -1,24 +1,7 @@
 <template>
-    
+    <div>
     <section id='resume' class='resume-section section-show'>
-
-			<div class='container'>
-				<div class='row'>
-					<div class='col-md-6 col-md-offset-3'>
-						<div class='section-header text-center'>
-
-							<h2 class='animate text-over-block'>My Resume</h2>
-
-							<!--divider-->
-							<div class='divider-draft center'></div>
-							<!--/divider-->
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-
+			<section-header title="My Resume"></section-header>
 			<div class='timeline-block section-block'>
 				<div class='container'>
 					<ul class='timeline'>
@@ -423,4 +406,19 @@
 
 
 		</section>
+		<close-btn/>
+	</div>
 </template>
+
+<script>
+import CloseBtn from "~/components/utils/CloseBtn";
+import SectionHeader from "~/components/layout/SectionHeader";
+import SocialLinks from "~/components/utils/SocialLinks";
+export default {
+  components: {
+	CloseBtn,
+	SectionHeader,
+    SocialLinks
+  }
+};
+</script>

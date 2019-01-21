@@ -3,14 +3,7 @@
     <section id="about" class="about-section active">
       <div class="basic-info section-block">
         <div class="container">
-          <div class="section-header text-center">
-            <h2>About Me</h2>
-
-            <!--divider-->
-            <div class="divider-draft center"></div>
-            <!--/divider-->
-          </div>
-
+          <section-header title="About Me"></section-header>
           <div class="row">
             <div class="col-md-4">
               <div class="about-person-img">
@@ -204,18 +197,19 @@
         </div>
       </div>
       <social-links></social-links>
-      <github-calendar></github-calendar>
     </section>
     <close-btn/>
   </div>
 </template>
 
 <script>
+import SectionHeader from "~/components/layout/SectionHeader";
 import CloseBtn from "~/components/utils/CloseBtn";
 import SocialLinks from "~/components/utils/SocialLinks";
 export default {
   components: {
     CloseBtn,
+    SectionHeader,
     SocialLinks
   }
 };
