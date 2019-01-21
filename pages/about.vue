@@ -42,37 +42,6 @@
               <p>This isn't a job for me but a genuine love!</p>
 
               <div class="clearfix"></div>
-
-              <!-- <ul class='info-list'>
-
-								<li>
-									<div class='inner'>
-										<h4>Name</h4>
-										<p>Adam Harpur</p>
-									</div>
-								</li>
-								<li>
-									<div class='inner'>
-										<h4>Age</h4>
-										<p>24 Years</p>
-									</div>
-								</li>
-								<li>
-									<div class='inner'>
-										<h4>Website</h4>
-										<p>example.com</p>
-									</div>
-								</li>
-								<li>
-									<div class='inner'>
-										<h4>Hometown</h4>
-										<p>Dokri</p>
-									</div>
-								</li>
-
-
-
-              </ul>-->
               <a href="#" class="symp-btn">Hire Me For Work</a>
               
               <a href="#" class="symp-btn link-btn">
@@ -244,12 +213,10 @@
 <script>
 import CloseBtn from "~/components/utils/CloseBtn";
 import SocialLinks from "~/components/utils/SocialLinks";
-import GithubCalendar from "~/components/sections/GithubCalendar";
 export default {
   components: {
     CloseBtn,
-    SocialLinks,
-    GithubCalendar
+    SocialLinks
   }
 };
 </script>
