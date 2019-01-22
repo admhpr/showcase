@@ -204,8 +204,8 @@
 
 <script>
 import SectionHeader from "~/components/layout/SectionHeader";
-import CloseBtn from "~/components/utils/CloseBtn";
-import SocialLinks from "~/components/utils/SocialLinks";
+import CloseBtn from "~/components/partials/CloseBtn";
+import SocialLinks from "~/components/partials/SocialLinks";
 export default {
   components: {
     CloseBtn,

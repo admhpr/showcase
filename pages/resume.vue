@@ -411,9 +411,9 @@
 </template>
 
 <script>
-import CloseBtn from "~/components/utils/CloseBtn";
+import CloseBtn from "~/components/partials/CloseBtn";
 import SectionHeader from "~/components/layout/SectionHeader";
-import SocialLinks from "~/components/utils/SocialLinks";
+import SocialLinks from "~/components/partials/SocialLinks";
 export default {
   components: {
 	CloseBtn,
