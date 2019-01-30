@@ -5,16 +5,6 @@
         <div class="section-header text-center">
           <h2 class="animate text-over-block">My Skills</h2>
 
-          <loading-progress
-            :progress="progress"
-            :indeterminate="indeterminate"
-            :counter-clockwise="counterClockwise"
-            :hide-background="hideBackground"
-            shape="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80"
-            size="180"
-            fill-duration="10"
-          />
-
           <!--divider-->
           <div class="divider-draft center"></div>
           <!--/divider-->
@@ -95,14 +85,6 @@
 export default {
   props: {
     skills: Array
-  },
-  data() {
-    return {
-      indeterminate: false,
-      progress: 50,
-      counterClockwise: false,
-      hideBackground: true
-    };
   }
 };
 </script>

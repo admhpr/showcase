@@ -45,121 +45,7 @@
       </div>
 
       <div class="about-icons section-block">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-ios-lightbulb"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Creative</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-trophy"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Ambitious</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-ios-glasses"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Problem Solver</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-ios-bolt"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Hard Working</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-help-buoy"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Reliable</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-happy"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Honest</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-ios-game-controller-b"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Passionate</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <div class="service">
-                <div class="icon">
-                  <i class="ion-ios-pulse-strong"></i>
-                </div>
-
-                <div class="content">
-                  <h4>Critical Thinker</h4>
-
-                  <p>Ut aboramus, numquam corpora qui naex. Dolore aliquando id duo, voluptua laboramus quo ad.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <info-diamonds :data="softSkills"/>
       </div>
 
       <div class="funfacts-block section-block">
@@ -200,14 +86,18 @@
 </template>
 
 <script>
+import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import SectionTitle from "~/components/layout/SectionTitle";
-import CloseBtn from "~/components/partials/CloseBtn";
-import SocialLinks from "~/components/partials/SocialLinks";
+import softSkills from "~/data/soft-skills";
 export default {
+  data: function() {
+    return {
+      softSkills
+    };
+  },
   components: {
-    CloseBtn,
-    SectionTitle,
-    SocialLinks
+    InfoDiamonds,
+    SectionTitle
   }
 };
 </script>
