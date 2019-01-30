@@ -2,13 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _a1cad4a0 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
-const _5548be03 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
-const _1729246b = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
-const _7f41e0cc = () => interopDefault(import('../pages/resume.vue' /* webpackChunkName: "pages/resume" */))
-const _20c5560b = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
-const _68f7a2bf = () => interopDefault(import('../pages/test.vue' /* webpackChunkName: "pages/test" */))
-const _625b1f16 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _784f088a = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _32254d4e = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _2f1f0cf6 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
+const _435deaef = () => interopDefault(import('../pages/resume.vue' /* webpackChunkName: "pages/resume" */))
+const _410a9fc0 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
+const _c9a16158 = () => interopDefault(import('../pages/test.vue' /* webpackChunkName: "pages/test" */))
+const _38df5300 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -69,31 +69,31 @@ export function createRouter() {
 
     routes: [{
       path: "/about",
-      component: _a1cad4a0,
+      component: _784f088a,
       name: "about"
     }, {
       path: "/contact",
-      component: _5548be03,
+      component: _32254d4e,
       name: "contact"
     }, {
       path: "/portfolio",
-      component: _1729246b,
+      component: _2f1f0cf6,
       name: "portfolio"
     }, {
       path: "/resume",
-      component: _7f41e0cc,
+      component: _435deaef,
       name: "resume"
     }, {
       path: "/services",
-      component: _20c5560b,
+      component: _410a9fc0,
       name: "services"
     }, {
       path: "/test",
-      component: _68f7a2bf,
+      component: _c9a16158,
       name: "test"
     }, {
       path: "/",
-      component: _625b1f16,
+      component: _38df5300,
       name: "index"
     }],
 

@@ -6,8 +6,9 @@ import '../assets/scss/style.scss'
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 import _6f6c098b from '../layouts/default.vue'
+import _103c6d61 from '../layouts/landing.vue'
 
-const layouts = { "_default": _6f6c098b }
+const layouts = { "_default": _6f6c098b,"_landing": _103c6d61 }
 
 export default {
   head: {"meta":[],"link":[],"style":[],"script":[]},

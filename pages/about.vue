@@ -10,7 +10,6 @@
                 <img src="img/me_ah.png" alt="adam">
               </div>
             </div>
-
             <div class="col-md-8 about-info">
               <p>
                 Being a developer to me is more than just writing code. It's about solving problems, algorithmically and
@@ -196,9 +195,7 @@
           </div>
         </div>
       </div>
-      <social-links></social-links>
     </section>
-    <close-btn/>
   </div>
 </template>
 

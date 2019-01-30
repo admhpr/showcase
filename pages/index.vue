@@ -29,7 +29,7 @@
           </li>
 
           <li>
-            <nuxt-link to="/portfolio"></nuxt-link>
+            <nuxt-link to="/portfolio">Portfolio</nuxt-link>
           </li>
 
           <li>
@@ -44,3 +44,9 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  layout: "landing"
+};
+</script>

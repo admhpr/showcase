@@ -5,9 +5,7 @@
         <div class="col-md-6">
           <div class="section-header text-center">
             <h2 class="animate text-over-block">{{title}}</h2>
-            <!--divider-->
             <div class="divider-draft center"></div>
-            <!--/divider-->
           </div>
         </div>
       </div>

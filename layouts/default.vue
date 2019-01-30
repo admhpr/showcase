@@ -1,22 +1,18 @@
 <template>
-  <div class="section-show">NUXT
+  <div class="section-show">NUXT -default
+    <close-btn/>
     <nuxt/>
-    <footer/>
+    <footer-section/>
   </div>
 </template>
+
 <script>
-import Footer from "~/components/layout/Footer";
+import CloseBtn from "~/components/partials/CloseBtn";
+import FooterSection from "~/components/layout/Footer";
 export default {
-  head: {
-    meta: [{ name: "viewpart", content: "width=device-width, initial-scale=1" }]
-  },
-  link: [
-    { rel: "stylesheet", href: "bootstrap/css/bootstrap.min.css" },
-    { rel: "stylesheet", href: "css/ionicons.min.css" },
-    { rel: "stylesheet", href: "css/owl.carousel.css" },
-    { rel: "stylesheet", href: "css/owl.theme.css" },
-    { rel: "stylesheet", href: "css/owl.transitions.css" },
-    { rel: "stylesheet", href: "css/magnific-popup.css" }
-  ]
+  components: {
+    CloseBtn,
+    FooterSection
+  }
 };
 </script>
