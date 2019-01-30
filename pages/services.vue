@@ -224,76 +224,7 @@
         </div>
       </div>
     </div>
-
-    <div class="process-block bg-lightgray section-block">
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>Work Process</h2>
-          <!--divider-->
-          <div class="divider-draft center"></div>
-          <!--/divider-->
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
-            <div class="process">
-              <div class="number">
-                <span>01</span>
-              </div>
-
-              <div class="content">
-                <h4>Design</h4>
-
-                <p>Lorem ipsum dolor sit amet is simply a dummy text used by typeset industries. Lorem ipsum dolor.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="process">
-              <div class="number">
-                <span>02</span>
-              </div>
-
-              <div class="content">
-                <h4>Develop</h4>
-
-                <p>Lorem ipsum dolor sit amet is simply a dummy text used by typeset industries. Lorem ipsum dolor.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="process">
-              <div class="number">
-                <span>03</span>
-              </div>
-
-              <div class="content">
-                <h4>Publish</h4>
-
-                <p>Lorem ipsum dolor sit amet is simply a dummy text used by typeset industries. Lorem ipsum dolor.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <div class="process last">
-              <div class="number">
-                <span>04</span>
-              </div>
-
-              <div class="content">
-                <h4>Enjoy</h4>
-
-                <p>Lorem ipsum dolor sit amet is simply a dummy text used by typeset industries. Lorem ipsum dolor.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    <stepper title="Work Flow" :data="process"/>
     <div class="testimonials-block section-block">
       <div class="container">
         <div class="section-title text-center">
@@ -350,35 +281,20 @@
         </div>
       </div>
     </div>
-
-    <div class="footer bg-lightgray section-block">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 text-left">
-            <h4>Adam Harpur</h4>
-          </div>
-
-          <div class="col-xs-6 text-right">
-            <ul class="footer-social">
-              <li>
-                <a href="#">
-                  <i class="ion-social-github"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="ion-social-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="ion-social-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 </template>
+
+<script>
+import Stepper from "~/components/sections/Stepper";
+import process from "~/data/process";
+export default {
+  data: function() {
+    return {
+      process
+    };
+  },
+  components: {
+    Stepper
+  }
+};
+</script>
