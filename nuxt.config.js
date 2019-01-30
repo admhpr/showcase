@@ -4,9 +4,6 @@ export default {
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
   script: [],
-  build: {
-    vendor: ['vue-progress']
-  },
   plugins: [
     '~/plugins/fontawesome.js'
   ],
