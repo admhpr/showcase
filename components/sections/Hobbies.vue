@@ -1,69 +1,14 @@
 <template>
   <div class="hobbies-block bg-lightgray section-block">
-    <div class="container">
-      <div class="section-title text-center">
-        <h2 class="animate text-over-block">My Hobbies</h2>
-        <!--divider-->
-        <div class="divider-draft center"></div>
-        <!--/divider-->
-      </div>
+      <section-title :title="title"/>
 
       <div class="row">
-        <div class="col-md-2 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-3 col-xs-6" :key="hobbie.title" v-for="hobbie in hobbies">
           <div class="hobby">
             <info-diamond/>
 
-            <h4>Gaming</h4>
-          </div>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-          <div class="hobby">
-            <div class="icon">
-              <i class="ion-ios-book"></i>
-            </div>
-
-            <h4>Reading</h4>
-          </div>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-          <div class="hobby">
-            <div class="icon">
-              <i class="ion-ios-chatboxes"></i>
-            </div>
-
-            <h4>Chat</h4>
-          </div>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-          <div class="hobby">
-            <div class="icon">
-              <i class="ion-ios-musical-notes"></i>
-            </div>
-
-            <h4>Music</h4>
-          </div>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-          <div class="hobby">
-            <div class="icon">
-              <i class="ion-beer"></i>
-            </div>
-
-            <h4>Drinking</h4>
-          </div>
-        </div>
-
-        <div class="col-md-2 col-sm-4 col-xs-6">
-          <div class="hobby">
-            <div class="icon">
-              <i class="ion-ios-football"></i>
-            </div>
-
-            <h4>Football</h4>
+            <h4>{{hobbie.title}}</h4>
+            <div>{{hobbie.info}}</div>
           </div>
         </div>
       </div>
@@ -73,9 +18,20 @@
 
 <script>
 import InfoDiamond from "~/components/partials/InfoDiamond";
+import SectionTitle from "~/components/layout/SectionTitle";
+import hobbies from "~/data/hobbies";
 export default {
+  props: {
+      title: String
+  },
+  data: function() {
+    return {
+      hobbies
+    };
+  },
   components: {
-    InfoDiamond
+    InfoDiamond,
+    SectionTitle
   }
 };
 </script>

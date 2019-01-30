@@ -111,7 +111,7 @@
           </ul>
         </div>
       </div>
-      <hobbies/>
+      <hobbies title="Hobbies"/>
       <skills/>
     </section>
   </div>
