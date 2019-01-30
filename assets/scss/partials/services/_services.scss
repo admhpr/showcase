@@ -17,7 +17,7 @@
     margin-bottom: 120px;
 }
 
-.service>.icon {
+.service>.info-diamond {
     transform: rotate(45deg);
     height: 90px;
     width: 90px;
@@ -34,17 +34,17 @@
     top: 0;
 }
 
-.service:hover>.icon {
+.service:hover>.info-diamond {
     top: -15px;
 }
 
-.service>.icon>i:before {
+.service>.info-diamond>i:before {
     line-height: 1em;
     vertical-align: middle;
     font-size: 45px;
 }
 
-.service>.icon>i {
+.service>.info-diamond>i {
     display: inline-block;
     line-height: inherit;
     height: inherit;

@@ -193,7 +193,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.hobby>.icon {
+.hobby>.info-diamond {
     font-size: 0;
     background: $highlight-color;
     color: $white;
@@ -210,11 +210,11 @@
     top: 0;
 }
 
-.hobby:hover>.icon {
+.hobby:hover>.info-diamond {
     top: -15px;
 }
 
-.hobby>.icon>i {
+.hobby>.info-diamond>i {
     display: block;
     height: inherit;
     width: inherit;
@@ -224,7 +224,7 @@
     transform: rotate(-45deg);
 }
 
-.hobby>.icon>i:before {
+.hobby>.info-diamond>i:before {
     vertical-align: middle;
     font-size: 45px;
     line-height: 1em;

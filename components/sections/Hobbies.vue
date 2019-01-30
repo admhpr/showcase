@@ -11,9 +11,7 @@
       <div class="row">
         <div class="col-md-2 col-sm-4 col-xs-6">
           <div class="hobby">
-            <div class="icon">
-              <i class="ion-ios-game-controller-b"></i>
-            </div>
+            <info-diamond/>
 
             <h4>Gaming</h4>
           </div>
@@ -74,7 +72,12 @@
 </template>
 
 <script>
-export default {};
+import InfoDiamond from "~/components/partials/InfoDiamond";
+export default {
+  components: {
+    InfoDiamond
+  }
+};
 </script>
 
 <style scoped>
