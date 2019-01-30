@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-offset-3">
-          <div class="section-header main-title text-center">
+          <div class="section-title main-title text-center">
             <h2 class="animate text-over-block">My Services</h2>
 
             <!--divider-->
@@ -141,7 +141,7 @@
 
     <div class="pricing-block section-block">
       <div class="container">
-        <div class="section-header text-center">
+        <div class="section-title text-center">
           <h2 class="animate text-over-block">Pricing</h2>
           <!--divider-->
           <div class="divider-draft center"></div>
@@ -227,7 +227,7 @@
 
     <div class="process-block bg-lightgray section-block">
       <div class="container">
-        <div class="section-header text-center">
+        <div class="section-title text-center">
           <h2>Work Process</h2>
           <!--divider-->
           <div class="divider-draft center"></div>
@@ -296,7 +296,7 @@
 
     <div class="testimonials-block section-block">
       <div class="container">
-        <div class="section-header text-center">
+        <div class="section-title text-center">
           <h2 class="animate text-over-block">Testimonials</h2>
 
           <!--divider-->

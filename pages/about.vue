@@ -3,7 +3,7 @@
     <section id="about" class="about-section active">
       <div class="basic-info section-block">
         <div class="container">
-          <section-header title="About Me"></section-header>
+          <section-title title="About Me"></section-title>
           <div class="row">
             <div class="col-md-4">
               <div class="about-person-img">
@@ -200,13 +200,13 @@
 </template>
 
 <script>
-import SectionHeader from "~/components/layout/SectionHeader";
+import SectionTitle from "~/components/layout/SectionTitle";
 import CloseBtn from "~/components/partials/CloseBtn";
 import SocialLinks from "~/components/partials/SocialLinks";
 export default {
   components: {
     CloseBtn,
-    SectionHeader,
+    SectionTitle,
     SocialLinks
   }
 };

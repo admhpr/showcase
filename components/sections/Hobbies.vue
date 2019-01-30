@@ -1,7 +1,7 @@
 <template>
   <div class="hobbies-block bg-lightgray section-block">
     <div class="container">
-      <div class="section-header text-center">
+      <div class="section-title text-center">
         <h2 class="animate text-over-block">My Hobbies</h2>
         <!--divider-->
         <div class="divider-draft center"></div>

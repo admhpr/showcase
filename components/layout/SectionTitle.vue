@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6">
-          <div class="section-header text-center">
+          <div class="section-title text-center">
             <h2 class="animate text-over-block">{{title}}</h2>
             <div class="divider-draft center"></div>
           </div>

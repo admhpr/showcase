@@ -1,7 +1,7 @@
 <template>
   <div>
     <section id="resume" class="resume-section section-show">
-      <section-header title="My Resume"></section-header>
+      <section-title title="My Resume"></section-title>
       <div class="timeline-block section-block">
         <div class="container">
           <ul class="timeline">
@@ -119,13 +119,13 @@
 
 <script>
 import Hobbies from "~/components/sections/Hobbies";
-import SectionHeader from "~/components/layout/SectionHeader";
+import SectionTitle from "~/components/layout/SectionTitle";
 import Skills from "~/components/sections/Skills";
 import SocialLinks from "~/components/partials/SocialLinks";
 export default {
   components: {
     Hobbies,
-    SectionHeader,
+    SectionTitle,
     Skills,
     SocialLinks
   }

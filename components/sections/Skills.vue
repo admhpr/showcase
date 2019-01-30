@@ -2,7 +2,7 @@
   <div>
     <div class="skills-block section-block">
       <div class="container">
-        <div class="section-header text-center">
+        <div class="section-title text-center">
           <h2 class="animate text-over-block">My Skills</h2>
 
           <loading-progress

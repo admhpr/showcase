@@ -1,7 +1,7 @@
 <template>
   <div class="testimonials-block section-block">
     <div class="container">
-      <div class="section-header text-center">
+      <div class="section-title text-center">
         <h2 class="animate text-over-block">Testimonials</h2>
 
         <!--divider-->
