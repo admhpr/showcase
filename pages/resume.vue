@@ -111,20 +111,26 @@
           </ul>
         </div>
       </div>
-      <hobbies title="Hobbies"/>
+      <info-diamonds title="Hobbies" :data="hobbies"/>
       <skills/>
     </section>
   </div>
 </template>
 
 <script>
-import Hobbies from "~/components/sections/Hobbies";
+import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import SectionTitle from "~/components/layout/SectionTitle";
 import Skills from "~/components/sections/Skills";
 import SocialLinks from "~/components/partials/SocialLinks";
+import hobbies from "~/data/hobbies";
 export default {
+  data: function() {
+    return {
+      hobbies
+    };
+  },
   components: {
-    Hobbies,
+    InfoDiamonds,
     SectionTitle,
     Skills,
     SocialLinks
