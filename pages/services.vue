@@ -281,11 +281,13 @@
         </div>
       </div>
     </div>
+    <carousel/>
   </section>
 </template>
 
 <script>
 import Stepper from "~/components/sections/Stepper";
+import Carousel from "~/components/sections/Carousel";
 import process from "~/data/process";
 export default {
   data: function() {
@@ -294,7 +296,8 @@ export default {
     };
   },
   components: {
-    Stepper
+    Stepper,
+    Carousel
   }
 };
 </script>

@@ -5,7 +5,11 @@ export default {
   ],
   script: [],
   plugins: [
-    '~/plugins/fontawesome.js'
+    '~/plugins/fontawesome.js',
+    {
+      src: '~plugins/vue-carousel',
+      ssr: false
+    }
   ],
   transition: {
     name: 'fade',

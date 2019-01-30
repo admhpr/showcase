@@ -12,6 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_fontawesome_b8db358e from 'nuxt_plugin_fontawesome_b8db358e' // Source: ../plugins/fontawesome.js
+import nuxt_plugin_vuecarousel_0d4d0f1e from 'nuxt_plugin_vuecarousel_0d4d0f1e' // Source: ../plugins/vue-carousel (ssr: false)
 
 // Component: <no-ssr>
 Vue.component(NoSSR.name, NoSSR)
@@ -132,6 +133,10 @@ async function createApp(ssrContext) {
   // Plugin execution
 
   if (typeof nuxt_plugin_fontawesome_b8db358e === 'function') await nuxt_plugin_fontawesome_b8db358e(app.context, inject)
+
+  if (process.client) {
+    if (typeof nuxt_plugin_vuecarousel_0d4d0f1e === 'function') await nuxt_plugin_vuecarousel_0d4d0f1e(app.context, inject)
+  }
 
   // If server-side, wait for async component to be resolved first
   if (process.server && ssrContext && ssrContext.url) {
