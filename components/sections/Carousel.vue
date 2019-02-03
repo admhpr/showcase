@@ -1,5 +1,6 @@
 <template>
   <div>
+    <section-title v-if="title" :title="title"/>
     <carousel>
       <slide>Slide 1 Content</slide>
       <slide>Slide 2 Content</slide>
@@ -10,8 +11,18 @@
   </div>
 </template>
 
+
 <script>
-export default {};
+import SectionTitle from "~/components/layout/SectionTitle";
+export default {
+  props: {
+    title: String,
+    data: Array
+  },
+  components: {
+    SectionTitle
+  }
+};
 </script>
 
 <style scoped>
