@@ -9,7 +9,6 @@
 </template>
 
 <script>
-import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import Skills from "~/components/sections/Skills";
 import SocialLinks from "~/components/partials/SocialLinks";
 import TimeLine from "~/components/partials/TimeLine";

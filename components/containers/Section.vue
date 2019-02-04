@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="about" class="about-section active">
+    <section class="section-container active">
       <div class="basic-info section-block">
         <div class="container">
           <section-title :title="title"></section-title>
