@@ -1,6 +1,6 @@
 export default {
   css: [
-    '@/assets/scss/style.scss',
+    '@/style/scss/style.scss',
     '@fortawesome/fontawesome-svg-core/styles.css'
   ],
   script: [],

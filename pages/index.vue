@@ -1,10 +1,10 @@
 <template>
-  <section class="front-section">
+  <section class="section-container">
     <div id="diamond-wrapper" class="container">
       <div class="transition-mask"></div>
 
       <div class="front-person-img">
-        <img src="/assests/img/me.png" alt="portfolio">
+        <img src="~/assets/img/me.png" alt="portfolio">
       </div>
 
       <div class="front-person-titles">
