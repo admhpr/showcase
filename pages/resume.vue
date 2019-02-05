@@ -20,7 +20,6 @@ export default {
     };
   },
   components: {
-    InfoDiamonds,
     Skills,
     SocialLinks,
     TimeLine

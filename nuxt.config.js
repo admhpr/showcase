@@ -1,3 +1,4 @@
+// @see https://nuxtjs.org/guide/configuration/
 export default {
   css: [
     '@/style/scss/style.scss',
