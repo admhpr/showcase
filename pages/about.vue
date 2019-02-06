@@ -50,7 +50,10 @@
 <script>
 import SectionContainer from "~/components/containers/Section";
 import InfoDiamonds from "~/components/sections/InfoDiamonds";
+
+// data
 import softSkills from "~/data/soft-skills";
+
 export default {
   data: function() {
     return {

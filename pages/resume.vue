@@ -9,10 +9,13 @@
 </template>
 
 <script>
+import SectionContainer from "~/components/containers/Section";
 import Skills from "~/components/sections/Skills";
-import SocialLinks from "~/components/partials/SocialLinks";
 import TimeLine from "~/components/partials/TimeLine";
+
+// data
 import hobbies from "~/data/hobbies";
+
 export default {
   data: function() {
     return {
@@ -20,8 +23,8 @@ export default {
     };
   },
   components: {
+    SectionContainer,
     Skills,
-    SocialLinks,
     TimeLine
   }
 };

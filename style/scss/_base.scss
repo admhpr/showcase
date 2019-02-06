@@ -105,20 +105,25 @@ body a.close-btn,
     transition-delay: 0.3s;
 }
 
-.section-title h2 {
-    font-size: 32px;
-    letter-spacing: 6px;
-    color: $black;
-    margin-top: 0;
-    margin-bottom: 35px;
-    font-weight: 300;
-}
+.section-title {
+    margin-bottom: 2em;
 
-.section-title p {
-    margin-top: 30px;
-    line-height: 1.7em;
-    color: #8a8a8a;
-    font-size: 16px;
+    h2 {
+        font-size: 32px;
+        letter-spacing: 6px;
+        color: $black;
+        margin-top: 0;
+        margin-bottom: 35px;
+        font-weight: 300;
+    }
+
+    p {
+        margin-top: 30px;
+        line-height: 1.7em;
+        color: #8a8a8a;
+        font-size: 16px;
+    }
+
 }
 
 #wrapper {

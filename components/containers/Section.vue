@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="section-container active">
-      <div class="basic-info section-block">
+      <div class="section-block">
         <div class="container">
           <section-title v-if="title" :title="title"></section-title>
         </div>
