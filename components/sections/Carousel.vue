@@ -2,11 +2,16 @@
   <div>
     <section-title v-if="title" :title="title"/>
     <carousel>
-      <slide>Slide 1 Content</slide>
-      <slide>Slide 2 Content</slide>
-      <slide>Slide 3 Content</slide>
-      <slide>Slide 4 Content</slide>
-      <slide>Slide 5 Content</slide>
+      <slide v-for="item in data" :key="item.tile">
+        <div class="testimonial">
+          <p>{{item.info}}</p>
+
+          <div class="author">
+            <h4>{{item.title}}</h4>
+            <p>{{item.meta}}</p>
+          </div>
+        </div>
+      </slide>
     </carousel>
   </div>
 </template>
