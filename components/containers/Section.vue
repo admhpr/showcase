@@ -3,7 +3,7 @@
     <section class="section-container active">
       <div class="basic-info section-block">
         <div class="container">
-          <section-title :title="title"></section-title>
+          <section-title v-if="title" :title="title"></section-title>
         </div>
       </div>
       <slot name="content"></slot>
