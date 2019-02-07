@@ -1,7 +1,7 @@
 <template>
   <section-container title="Resume">
     <div slot="content">
-      <time-line></time-line>
+      <time-line :data="resume"></time-line>
       <info-diamonds title="Hobbies" :data="hobbies"/>
       <skills/>
     </div>
@@ -16,11 +16,13 @@ import TimeLine from "~/components/partials/TimeLine";
 
 // data
 import hobbies from "~/data/hobbies";
+import resume from "~/data/resume";
 
 export default {
   data: function() {
     return {
-      hobbies
+      hobbies,
+      resume
     };
   },
   components: {

@@ -6,7 +6,11 @@
           <h4>{{item.title}}</h4>
         </li>
 
-        <li :key="info.title" v-for="info in item.data">
+        <li
+          :key="info.title"
+          v-for="(info,index) in item.data"
+          :class="index % 2 !== 0  ?'inverse' : ''"
+        >
           <div class="timeline-desc">
             <h4>{{info.meta}}</h4>
           </div>
