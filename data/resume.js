@@ -1,9 +1,9 @@
-export default {
-    education: {
+export default [{
         title: "Education",
         data: [{
                 title: "Gaming",
-                info: "lorem blah blah blah"
+                info: "lorem blah blah blah",
+                meta: "2011"
             },
             {
                 title: "Gaming",
@@ -19,7 +19,7 @@ export default {
             },
         ]
     },
-    experience: {
+    {
         title: "Work Experience",
         data: [{
                 title: "Gaming",
@@ -39,4 +39,4 @@ export default {
             },
         ]
     }
-}
+]

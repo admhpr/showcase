@@ -1,108 +1,21 @@
 <template>
   <div class="timeline-block section-block">
     <div class="container">
-      <ul class="timeline">
+      <ul :key="item.title" v-for="item in data" class="timeline">
         <li class="timeline-header">
-          <h4>Education</h4>
+          <h4>{{item.title}}</h4>
         </li>
 
-        <li>
+        <li :key="info.title" v-for="info in item.data">
           <div class="timeline-desc">
-            <h4>2005-2007</h4>
+            <h4>{{info.meta}}</h4>
           </div>
 
           <div class="timeline-content">
-            <h4>Masters Degree</h4>
+            <h4>{{info.title}}</h4>
             <span>@CSS College Larkana</span>
 
-            <p>
-              Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat
-              vituperata suscipiantur et, et fabellas explicari adipiscing quo.
-            </p>
-          </div>
-        </li>
-
-        <li class="inverse">
-          <div class="timeline-desc">
-            <h4>2005-2007</h4>
-          </div>
-
-          <div class="timeline-content">
-            <h4>Masters Degree</h4>
-            <span>@CSS College Larkana</span>
-
-            <p>
-              Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat
-              vituperata suscipiantur et, et fabellas explicari adipiscing quo.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <div class="timeline-desc">
-            <h4>2005-2007</h4>
-          </div>
-
-          <div class="timeline-content">
-            <h4>Masters Degree</h4>
-            <span>@CSS College Larkana</span>
-
-            <p>
-              Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat
-              vituperata suscipiantur et, et fabellas explicari adipiscing quo.
-            </p>
-          </div>
-        </li>
-
-        <li class="timeline-header">
-          <h4>Experience</h4>
-        </li>
-
-        <li>
-          <div class="timeline-desc">
-            <h4>2005-2007</h4>
-          </div>
-
-          <div class="timeline-content">
-            <h4>Web Designer</h4>
-            <span>@Themeforest</span>
-
-            <p>
-              Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat
-              vituperata suscipiantur et, et fabellas explicari adipiscing quo.
-            </p>
-          </div>
-        </li>
-
-        <li class="inverse">
-          <div class="timeline-desc">
-            <h4>2005-2007</h4>
-          </div>
-
-          <div class="timeline-content">
-            <h4>Web Developer</h4>
-            <span>@CodeCanyon</span>
-
-            <p>
-              Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat
-              vituperata suscipiantur et, et fabellas explicari adipiscing quo.
-            </p>
-          </div>
-        </li>
-
-        <li>
-          <div class="timeline-desc">
-            <h4>2005-2007</h4>
-          </div>
-
-          <div class="timeline-content">
-            <h4>Blogger</h4>
-            <span>@blogspot</span>
-
-            <p>
-              Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat
-              vituperata suscipiantur et, et fabellas explicari adipiscing quo.
-            </p>
+            <p>{{info.info}}</p>
           </div>
         </li>
       </ul>
@@ -111,7 +24,11 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    data: Array
+  }
+};
 </script>
 
 <style scoped>
