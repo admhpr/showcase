@@ -1,5 +1,5 @@
 <template>
-  <div class="col-xs-6 text-right">
+  <div class="links col-xs-6 text-right">
     <a href>
       <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
     </a>

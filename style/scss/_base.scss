@@ -240,3 +240,13 @@ body.section-show .section.active {
 #diamond-wrapper {
     margin-top: -75px;
 }
+
+.links {
+    a {
+        color: $accent-3;
+
+        &:hover {
+            color: $accent-1;
+        }
+    }
+}

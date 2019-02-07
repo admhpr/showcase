@@ -11,6 +11,7 @@
 <script>
 import SectionContainer from "~/components/containers/Section";
 import Skills from "~/components/sections/Skills";
+import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import TimeLine from "~/components/partials/TimeLine";
 
 // data
@@ -23,6 +24,7 @@ export default {
     };
   },
   components: {
+    InfoDiamonds,
     SectionContainer,
     Skills,
     TimeLine
