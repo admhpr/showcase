@@ -8,13 +8,13 @@ import xssFilters from 'xss-filters'
 const rejectFunctions = new Map([
     ['name', v => v.length < 1],
     ['email', v => !validator.isEmail(v)],
-    ['msg', v => v.length < 1]
+    ['message', v => v.length < 1]
 ])
 const validateAndSanitize = (key, value) => {
     // If map has key and function returns false, return sanitized input. Else, return false
     return rejectFunctions.has(key) && !rejectFunctions.get(key)(value) && xssFilters.inHTMLData(value)
 }
-const sendMail = (name, email, msg) => {
+const sendMail = (name, email, message) => {
     const transporter = nodemailer.createTransport({
         sendmail: true,
         newline: 'unix',
@@ -24,7 +24,7 @@ const sendMail = (name, email, msg) => {
         from: email,
         to: 'adam@harpur.io',
         subject: `New contact form message: ${name}`,
-        text: msg
+        text: message
     })
 }
 
@@ -35,7 +35,7 @@ const app = express()
 app.use(express.json())
 
 app.post('/', (req, res) => {
-    const attributes = ['name', 'email', 'msg'] // form fields
+    const attributes = ['name', 'email', 'message'] // form fields
 
     // Map each attribute name to the validated and sanitized equivalent (false if validation failed)
     const sanitizedAttributes = attributes.map(n => validateAndSanitize(n, req.body[n]))
