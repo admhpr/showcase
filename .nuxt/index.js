@@ -1,9 +1,8 @@
 import Vue from 'vue'
 import Meta from 'vue-meta'
 import { createRouter } from './router.js'
-import NoSSR from './components/no-ssr.js'
+import NoSsr from './components/no-ssr.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtLink from './components/nuxt-link.js'
 import NuxtError from './components/nuxt-error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
@@ -11,19 +10,20 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_fontawesome_b8db358e from 'nuxt_plugin_fontawesome_b8db358e' // Source: ../plugins/fontawesome.js
-import nuxt_plugin_vuecarousel_0d4d0f1e from 'nuxt_plugin_vuecarousel_0d4d0f1e' // Source: ../plugins/vue-carousel (ssr: false)
+import nuxt_plugin_fontawesome_b8db358e from 'nuxt_plugin_fontawesome_b8db358e' // Source: ../plugins/fontawesome.js (mode: 'all')
+import nuxt_plugin_vuegithub_bbe3bdbe from 'nuxt_plugin_vuegithub_bbe3bdbe' // Source: ../plugins/vue-github (mode: 'client')
+import nuxt_plugin_vuecarousel_0d4d0f1e from 'nuxt_plugin_vuecarousel_0d4d0f1e' // Source: ../plugins/vue-carousel (mode: 'client')
 
-// Component: <no-ssr>
-Vue.component(NoSSR.name, NoSSR)
+// Component: <NoSsr>
+Vue.component(NoSsr.name, NoSsr)
 
-// Component: <nuxt-child>
+// Component: <NuxtChild>
 Vue.component(NuxtChild.name, NuxtChild)
+Vue.component('NChild', NuxtChild)
 
-// Component: <nuxt-link>
-Vue.component(NuxtLink.name, NuxtLink)
+// Component NuxtLink is imported in server.js or client.js
 
-// Component: <nuxt>`
+// Component: <Nuxt>`
 Vue.component(Nuxt.name, Nuxt)
 
 // vue-meta configuration
@@ -135,6 +135,7 @@ async function createApp(ssrContext) {
   if (typeof nuxt_plugin_fontawesome_b8db358e === 'function') await nuxt_plugin_fontawesome_b8db358e(app.context, inject)
 
   if (process.client) {
+    if (typeof nuxt_plugin_vuegithub_bbe3bdbe === 'function') await nuxt_plugin_vuegithub_bbe3bdbe(app.context, inject)
     if (typeof nuxt_plugin_vuecarousel_0d4d0f1e === 'function') await nuxt_plugin_vuecarousel_0d4d0f1e(app.context, inject)
   }
 

@@ -14,7 +14,7 @@ export default {
   head: {"meta":[],"link":[],"style":[],"script":[]},
 
   render(h, props) {
-    const loadingEl = h('nuxt-loading', { ref: 'loading' })
+    const loadingEl = h('NuxtLoading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')
     const templateEl = h('div', {
       domProps: {
@@ -48,6 +48,7 @@ export default {
     ])
   },
   data: () => ({
+    isOnline: true,
     layout: null,
     layoutName: ''
   }),
@@ -58,8 +59,12 @@ export default {
     // Add this.$nuxt in child instances
     Vue.prototype.$nuxt = this
     // add to window so we can listen when ready
-    if (typeof window !== 'undefined') {
+    if (process.client) {
       window.$nuxt = this
+      this.refreshOnlineStatus()
+      // Setup the listeners
+      window.addEventListener('online', this.refreshOnlineStatus)
+      window.addEventListener('offline', this.refreshOnlineStatus)
     }
     // Add $nuxt.error()
     this.error = this.nuxt.error
@@ -72,7 +77,25 @@ export default {
     'nuxt.err': 'errorChanged'
   },
 
+  computed: {
+    isOffline() {
+      return !this.isOnline
+    }
+  },
   methods: {
+    refreshOnlineStatus() {
+      if (process.client) {
+        if (typeof window.navigator.onLine === 'undefined') {
+          // If the browser doesn't support connection status reports
+          // assume that we are online because most apps' only react
+          // when they now that the connection has been interrupted
+          this.isOnline = true
+        } else {
+          this.isOnline = window.navigator.onLine
+        }
+      }
+    },
+
     errorChanged() {
       if (this.nuxt.err && this.$loading) {
         if (this.$loading.fail) this.$loading.fail()

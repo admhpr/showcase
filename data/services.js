@@ -1,17 +1,17 @@
 export default [{
         title: "Web Development",
-        info: "lorem blah blah blah"
+        info: "Build the site of you dreams using the latest and greatest tech"
     },
     {
         title: "Frontend Contracting",
-        info: "lorem blah blah blah"
+        info: "Let me help your company take things to the next level"
     },
     {
         title: "Scripts and tooling",
-        info: "lorem blah blah blah"
+        info: "Need to grab some hard to reach data, watch a website for keywords or another bespoke problem that needs solved"
     },
     {
-        title: "Something",
-        info: "lorem blah blah blah"
+        title: "Lessons",
+        info: "Let me help you learn some web development skills or some general programming."
     },
 ]

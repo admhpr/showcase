@@ -1,6 +1,6 @@
 export default [{
         title: "Creative",
-        info: "lorem blah blah blah"
+        info: "The corner stone, without being creative how could I come up with anything?"
     },
     {
         title: "Ambitious",

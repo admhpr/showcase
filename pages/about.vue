@@ -43,6 +43,12 @@
       <div class="about-icons section-block">
         <info-diamonds :data="softSkills"/>
       </div>
+
+      <section-container title="Open Source Activity">
+        <div class="vue-github-wrapper" slot="content">
+          <vue-github class="vue-github" username="harps116"/>
+        </div>
+      </section-container>
     </div>
   </section-container>
 </template>
@@ -67,4 +73,14 @@ export default {
 };
 </script>
 
+<style>
+.vue-github-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.vue-github {
+  width: 70%;
+}
+</style>
 
