@@ -43,10 +43,11 @@ app.post('/', (req, res) => {
     // True if some of the attributes new values are false -> validation failed
     const someInvalid = sanitizedAttributes.some(r => !r)
 
+    const failed = sanitizedAttributes.filter(r => !r)
     if (someInvalid) {
         // Throw a 422 with a neat error message if validation failed
         return res.status(422).json({
-            'error': 'failed sanitation'
+            'error': `failed: ${failed}`
         })
     }
 
