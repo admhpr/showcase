@@ -4,7 +4,7 @@ export default [{
     },
     {
         title: "Ambitious",
-        info: "lorem blah blah blah"
+        info: "I want to do my best work, always, no exceptions."
     },
     {
         title: "Problem Solver",
