@@ -8,6 +8,9 @@ export default {
   build: {
     vendor: ['vue-github'],
   },
+  serverMiddleware: [
+    '~/api/contact'
+  ],
   plugins: [
     '~/plugins/fontawesome.js',
     {

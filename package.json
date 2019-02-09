@@ -9,10 +9,14 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/vue-fontawesome": "^0.1.5",
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1",
     "nuxt": "^2.4.3",
+    "validator": "^10.11.0",
     "vue": "^2.6.4",
     "vue-carousel": "^0.17.0",
-    "vue-github": "^0.9.7"
+    "vue-github": "^0.9.10",
+    "xss-filters": "^1.2.7"
   },
   "devDependencies": {
     "css-loader": "^2.1.0",
