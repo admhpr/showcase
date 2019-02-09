@@ -33,7 +33,7 @@
           </li>
 
           <li>
-            <a href="#" data-section="blog">My Blog</a>
+            <a href="https://blog.harpur.io" data-section="blog">My Blog</a>
           </li>
         </ul>
       </nav>

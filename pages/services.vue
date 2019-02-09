@@ -8,12 +8,18 @@
           <carousel :data="testimonials"/>
         </div>
       </section-container>
+      <section-container title="Get in Touch">
+        <div slot="content">
+          <contact-form/>
+        </div>
+      </section-container>
     </div>
   </section-container>
 </template>
 
 <script>
 import Carousel from "~/components/sections/Carousel";
+import ContactForm from "~/components/partials/ContactForm";
 import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import Stepper from "~/components/sections/Stepper";
 import SectionContainer from "~/components/containers/Section";
@@ -31,9 +37,11 @@ export default {
   },
   components: {
     Carousel,
+    ContactForm,
     InfoDiamonds,
     SectionContainer,
     Stepper
   }
 };
 </script>
+

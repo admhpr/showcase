@@ -7,7 +7,6 @@ const _32254d4e = () => interopDefault(import('../pages/contact.vue' /* webpackC
 const _2f1f0cf6 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
 const _435deaef = () => interopDefault(import('../pages/resume.vue' /* webpackChunkName: "pages/resume" */))
 const _410a9fc0 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
-const _c9a16158 = () => interopDefault(import('../pages/test.vue' /* webpackChunkName: "pages/test" */))
 const _38df5300 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
@@ -90,10 +89,6 @@ export function createRouter() {
       path: "/services",
       component: _410a9fc0,
       name: "services"
-    }, {
-      path: "/test",
-      component: _c9a16158,
-      name: "test"
     }, {
       path: "/",
       component: _38df5300,
