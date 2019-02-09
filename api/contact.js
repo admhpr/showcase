@@ -46,9 +46,9 @@ app.post('/', (req, res) => {
     const failed = sanitizedAttributes.filter(r => !r)
 
     if (someInvalid) {
-        // Throw a 422 with a neat error message if validation failed
+        // not processed
         return res.status(422).json({
-            'error': failed
+            'failed': failed
         })
     }
 
