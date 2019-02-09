@@ -1,3 +1,5 @@
+// @see https: //blog.lichter.io/posts/sending-emails-through-nuxtjs/
+
 import express from 'express'
 import nodemailer from 'nodemailer'
 import validator from 'validator'
@@ -12,8 +14,6 @@ const validateAndSanitize = (key, value) => {
     // If map has key and function returns false, return sanitized input. Else, return false
     return rejectFunctions.has(key) && !rejectFunctions.get(key)(value) && xssFilters.inHTMLData(value)
 }
-
-
 const sendMail = (name, email, msg) => {
     const transporter = nodemailer.createTransport({
         sendmail: true,
