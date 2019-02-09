@@ -23,7 +23,7 @@ const sendMail = (name, email, msg) => {
     transporter.sendMail({
         from: email,
         to: 'adam@harpur.io',
-        subject: 'New contact form message',
+        subject: `New contact form message: ${name}`,
         text: msg
     })
 }
