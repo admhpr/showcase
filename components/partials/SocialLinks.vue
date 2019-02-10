@@ -1,5 +1,5 @@
 <template>
-  <div class="social-links links col-xs-6 text-right">
+  <div class="social-links links col-xs-6 col-lg-2 text-right">
     <a href="https://www.ecosia.org/search?q=harps116">
       <font-awesome-icon :icon="['fas', 'globe-europe']" size="2x"/>
     </a>

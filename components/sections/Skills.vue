@@ -24,6 +24,11 @@
             :series="knowledgeBar.series"
           ></apexchart>
         </div>
+        <div class="row">
+          <div class="col-xs-10 col-lg-10">
+            <vue-github :text="'.'" :showFeed="false" username="harps116"></vue-github>
+          </div>
+        </div>
       </div>
     </section-container>
   </div>
@@ -68,11 +73,11 @@ export default {
         series: [
           {
             name: "Books Read",
-            data: [30, 40, 45, 50]
+            data: [3, 5, 10, 5]
           },
           {
             name: "Courses Completed",
-            data: [30, 40, 45, 50]
+            data: [3, 4, 4, 2]
           }
         ]
       }
