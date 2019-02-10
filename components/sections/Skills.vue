@@ -3,13 +3,14 @@
     <div class="skills-block section-block">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="animate text-over-block">My Skills</h2>
+          <h2 class="animate text-over-block">My Skillies</h2>
 
           <!--divider-->
           <div class="divider-draft center"></div>
           <!--/divider-->
         </div>
 
+        <apexchart width="500" type="bar" :options="chartOptions" :series="series"></apexchart>
         <div class="row">
           <div class="col-md-6">
             <div v-for="skill in skills" :key="skill.id">{{ skill }}</div>
@@ -85,6 +86,24 @@
 export default {
   props: {
     skills: Array
+  },
+  data: function() {
+    return {
+      chartOptions: {
+        chart: {
+          id: "vuechart-example"
+        },
+        xaxis: {
+          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998]
+        }
+      },
+      series: [
+        {
+          name: "series-1",
+          data: [30, 40, 45, 50, 49, 60, 70, 91]
+        }
+      ]
+    };
   }
 };
 </script>

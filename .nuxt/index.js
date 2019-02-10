@@ -11,6 +11,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_fontawesome_b8db358e from 'nuxt_plugin_fontawesome_b8db358e' // Source: ../plugins/fontawesome.js (mode: 'all')
+import nuxt_plugin_vueapexcharts_7410a43a from 'nuxt_plugin_vueapexcharts_7410a43a' // Source: ../plugins/vue-apexcharts.js (mode: 'client')
 import nuxt_plugin_vuegithub_bbe3bdbe from 'nuxt_plugin_vuegithub_bbe3bdbe' // Source: ../plugins/vue-github (mode: 'client')
 import nuxt_plugin_vuecarousel_0d4d0f1e from 'nuxt_plugin_vuecarousel_0d4d0f1e' // Source: ../plugins/vue-carousel (mode: 'client')
 
@@ -135,6 +136,7 @@ async function createApp(ssrContext) {
   if (typeof nuxt_plugin_fontawesome_b8db358e === 'function') await nuxt_plugin_fontawesome_b8db358e(app.context, inject)
 
   if (process.client) {
+    if (typeof nuxt_plugin_vueapexcharts_7410a43a === 'function') await nuxt_plugin_vueapexcharts_7410a43a(app.context, inject)
     if (typeof nuxt_plugin_vuegithub_bbe3bdbe === 'function') await nuxt_plugin_vuegithub_bbe3bdbe(app.context, inject)
     if (typeof nuxt_plugin_vuecarousel_0d4d0f1e === 'function') await nuxt_plugin_vuecarousel_0d4d0f1e(app.context, inject)
   }

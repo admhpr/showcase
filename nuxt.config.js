@@ -5,14 +5,15 @@ export default {
     '@fortawesome/fontawesome-svg-core/styles.css',
   ],
   script: [],
-  build: {
-    vendor: ['vue-github'],
-  },
   serverMiddleware: [
     '~/api/contact'
   ],
   plugins: [
     '~/plugins/fontawesome.js',
+    {
+      src: '~/plugins/vue-apexcharts.js',
+      ssr: false
+    },
     {
       src: '~plugins/vue-github',
       ssr: false
