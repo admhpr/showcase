@@ -11,14 +11,10 @@
           v-for="(info,index) in item.data"
           :class="index % 2 !== 0  ?'inverse' : ''"
         >
-          <div class="timeline-desc">
-            <h4>{{info.meta}}</h4>
-          </div>
-
           <div class="timeline-content">
             <h4>{{info.title}}</h4>
-            <span>@CSS College Larkana</span>
-
+            <span v-if="info.location">@ {{info.location}}</span>
+            <span>{{info.meta}}</span>
             <p>{{info.info}}</p>
           </div>
         </li>
