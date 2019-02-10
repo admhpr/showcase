@@ -14,10 +14,6 @@ export default [{
                 title: "Gaming",
                 info: "lorem blah blah blah"
             },
-            {
-                title: "Gaming",
-                info: "lorem blah blah blah"
-            },
         ]
     },
     {
@@ -25,12 +21,32 @@ export default [{
         data: [{
                 title: "FullStack Web Developer",
                 location: "Coulee Tech Inc",
-                info: "",
+                info: "Working with JavaScript, TypeScript, Node and couchDB",
                 meta: "Aug 2017 - Present"
+            },
+            {
+                title: "Computer Tech",
+                location: "Orange Computer",
+                info: "Hardware upgrades, server maintenance",
+                meta: "Dec 2016 - Jan 2018"
             },
             {
                 title: "Gaming",
                 info: "lorem blah blah blah"
+            },
+            {
+                title: "Gaming",
+                info: "lorem blah blah blah"
+            },
+        ]
+    },
+    {
+        title: "Community",
+        data: [{
+                title: "La Crosse Area Meet Up",
+                location: "La Crosse, WI",
+                info: "Founder. Learnt a ton from other developers and geeks in the area",
+                meta: "Sept 2017 - Nov 2018"
             },
             {
                 title: "Gaming",
