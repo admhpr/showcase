@@ -3,8 +3,26 @@
     <section-container title="Skills and Attributes">
       <div slot="content">
         <div class="row">
-          <apexchart width="500" type="bar" :options="chartOptions" :series="series"></apexchart>
-          <apexchart width="500" type="bar" :options="chartOptions" :series="series"></apexchart>
+          <apexchart
+            width="500"
+            type="pie"
+            :options="skillsPie.chartOptions"
+            :series="skillsPie.series"
+          ></apexchart>
+          <apexchart
+            width="500"
+            type="donut"
+            :options="attributesPie.chartOptions"
+            :series="attributesPie.series"
+          ></apexchart>
+        </div>
+        <div class="row">
+          <apexchart
+            width="500"
+            type="bar"
+            :options="knowledgeBar.chartOptions"
+            :series="knowledgeBar.series"
+          ></apexchart>
         </div>
       </div>
     </section-container>
@@ -22,20 +40,33 @@ export default {
   },
   data: function() {
     return {
-      chartOptions: {
-        chart: {
-          id: "vuechart-example"
+      skillsPie: {
+        chartOptions: {
+          labels: ["JavaScript", "CSS", "HTML", "Python", "PHP", "MySQl"]
         },
-        xaxis: {
-          categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998]
-        }
+        series: [40, 17.5, 17.5, 5, 10, 10]
       },
-      series: [
-        {
-          name: "series-1",
-          data: [30, 40, 45, 50, 49, 60, 70, 91]
-        }
-      ]
+      attributesPie: {
+        chartOptions: {
+          labels: [
+            "Easy Going",
+            "Enthusiastic",
+            "Deep Thinker",
+            "Curious",
+            "Competent",
+            "Creative"
+          ]
+        },
+        series: [20, 20, 20, 20, 20, 20]
+      },
+      knowledgeBar: {
+        chartOptions: {
+          xaxis: {
+            categories: [2016, 2017, 2018, 2019]
+          }
+        },
+        series: [20, 10, 5, 19]
+      }
     };
   }
 };
