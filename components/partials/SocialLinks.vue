@@ -1,6 +1,6 @@
 <template>
   <div class="links col-xs-6 text-right">
-    <a href="https://www.google.com/search?q=harps116">
+    <a href="https://www.ecosia.org/search?q=harps116">
       <font-awesome-icon :icon="['fas', 'globe-europe']" size="lg"/>
     </a>
     <a href>
