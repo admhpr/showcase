@@ -65,7 +65,16 @@ export default {
             categories: [2016, 2017, 2018, 2019]
           }
         },
-        series: [20, 10, 5, 19]
+        series: [
+          {
+            name: "Books Read",
+            data: [30, 40, 45, 50]
+          },
+          {
+            name: "Courses Completed",
+            data: [30, 40, 45, 50]
+          }
+        ]
       }
     };
   }
