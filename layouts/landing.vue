@@ -1,5 +1,5 @@
 <template>
-  <div class="section-show">NUXT -Landing
+  <div class="section-show">
     <nuxt/>
     <footer/>
   </div>

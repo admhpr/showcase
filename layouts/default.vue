@@ -1,5 +1,5 @@
 <template>
-  <div class="section-show">NUXT -default
+  <div class="section-show">
     <close-btn/>
     <nuxt/>
     <footer-section/>

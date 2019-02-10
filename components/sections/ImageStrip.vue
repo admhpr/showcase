@@ -1,14 +1,25 @@
 <template>
-  <div class="row">
+  <div class="row image-strip-wrapper">
     <div class="image-strip">
-      <img class="img-thumbnail" v-for="img in images" :key="img.src" :src="img.src" :alt="img.alt">
+      <img v-for="img in images" :key="img.src" :src="img.src" :alt="img.alt">
+      <img v-for="img in images" :key="img.src" :src="img.src" :alt="img.alt">
+      <img v-for="img in images" :key="img.src" :src="img.src" :alt="img.alt">
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+require.context("~/assets/img", false, /\.png$/);
+export default {
+  props: { images: Array }
+};
 </script>
 
 <style scoped>
+img {
+  max-width: 75px;
+}
+
+.image-strip-wrapper {
+}
 </style>
