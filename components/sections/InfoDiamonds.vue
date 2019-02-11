@@ -1,5 +1,5 @@
 <template>
-  <div class="hobbies-block bg-lightgray section-block">
+  <div class="info-diamonds bg-lightgray section-block">
     <section-title v-if="title" :title="title"/>
     <div class="row">
       <div class="col-md-3 col-sm-3 col-xs-6" :key="item.title" v-for="item in data">

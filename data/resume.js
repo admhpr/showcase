@@ -7,12 +7,15 @@ export default [{
                 meta: "May 2016 - May 2018"
             },
             {
-                title: "Gaming",
-                info: "lorem blah blah blah"
+                title: "Traveling",
+                info: "I have a large portion of my life travelling which has taught me many things",
+                location: "America, Australia, Europe",
+                meta: "2008 - Present",
             },
             {
-                title: "Gaming",
-                info: "lorem blah blah blah"
+                title: "Various Courses",
+                info: "I have done a number of courses on Frontend Master, Udemy and Udacity",
+                meta: "2016 - Present"
             },
         ]
     },
@@ -31,12 +34,9 @@ export default [{
                 meta: "Dec 2016 - Jan 2018"
             },
             {
-                title: "Gaming",
-                info: "lorem blah blah blah"
-            },
-            {
-                title: "Gaming",
-                info: "lorem blah blah blah"
+                title: "Various other non tech jobs",
+                info: "In an other life I worked as a Cook, Painter, Bartender, Farmhand, Deckhand",
+                meta: "2008 - 2016"
             },
         ]
     },
@@ -49,12 +49,10 @@ export default [{
                 meta: "Sept 2017 - Nov 2018"
             },
             {
-                title: "Gaming",
-                info: "lorem blah blah blah"
-            },
-            {
-                title: "Gaming",
-                info: "lorem blah blah blah"
+                title: "Linux Users Grou",
+                location: "La Crosse, WI",
+                info: "Talking Linux with other enthusiasts",
+                meta: "Sept 2017 - Nov 2018"
             },
         ]
     }

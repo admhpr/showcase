@@ -3,32 +3,35 @@
     <section-container title="Skills and Attributes">
       <div slot="content">
         <div class="row">
-          <apexchart
-            width="500"
-            type="pie"
-            :options="skillsPie.chartOptions"
-            :series="skillsPie.series"
-          ></apexchart>
-          <apexchart
-            width="500"
-            type="donut"
-            :options="attributesPie.chartOptions"
-            :series="attributesPie.series"
-          ></apexchart>
-        </div>
-        <div class="row">
-          <apexchart
-            width="500"
-            type="bar"
-            :options="knowledgeBar.chartOptions"
-            :series="knowledgeBar.series"
-          ></apexchart>
-        </div>
-        <div class="row">
-          <div class="col-xs-10 col-lg-10">
-            <vue-github :text="'.'" :showFeed="false" username="harps116"></vue-github>
+          <div class="col-lg-5">
+            <apexchart type="pie" :options="skillsPie.chartOptions" :series="skillsPie.series"></apexchart>
+          </div>
+          <div class="col-lg-5">
+            <apexchart
+              type="donut"
+              :options="attributesPie.chartOptions"
+              :series="attributesPie.series"
+            ></apexchart>
           </div>
         </div>
+        <section-container title="Knowledge and learning">
+          <div slot="content">
+            <div class="row">
+              <div class="col-lg-6">
+                <apexchart
+                  type="bar"
+                  :options="knowledgeBar.chartOptions"
+                  :series="knowledgeBar.series"
+                ></apexchart>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-10">
+                <vue-github :showFeed="false" username="harps116"></vue-github>
+              </div>
+            </div>
+          </div>
+        </section-container>
       </div>
     </section-container>
   </div>

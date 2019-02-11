@@ -1,11 +1,12 @@
 //libs
-@import "libs/index.scss";
-
+@import "libs/index";
 
 // general
 @import "variables";
 @import "base";
 
+//layout
+@import "layout/footer";
 
 // partials
 @import "partials/preloader";
