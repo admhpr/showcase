@@ -50,10 +50,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-form {
-  padding: 1em;
-  border: 1px solid grey;
-}
-</style>

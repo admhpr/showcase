@@ -1,17 +1,17 @@
 const base = '/_nuxt/assets/img/'
 export default [{
-    src: `${base}1.png`,
+    src: `${base}6.png`,
     alt: ''
 }, {
-    src: `${base}3.png`,
+    src: `${base}6.png`,
     alt: ''
 }, {
-    src: `${base}2.png`,
+    src: `${base}6.png`,
     alt: ''
 }, {
-    src: `${base}4.png`,
+    src: `${base}6.png`,
     alt: ''
 }, {
-    src: `${base}2.png`,
+    src: `${base}6.png`,
     alt: ''
 }, ]

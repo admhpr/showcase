@@ -1,7 +1,6 @@
 
 <template>
   <div>
-    <!-- <image-strip :images="imageSetOne" :repeat="3"/> -->
     <section-container title="About Me">
       <div slot="content">
         <div class="row">

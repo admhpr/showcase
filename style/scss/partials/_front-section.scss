@@ -200,9 +200,15 @@ body.section-show .transition-mask:before {
         }
     }
 
-    >:last-child {
+    >:nth-child(5) {
         &:hover {
             border-bottom: solid 5px $accent-4;
+        }
+    }
+
+    >:last-child {
+        &:hover {
+            border-bottom: solid 5px $accent-3;
         }
     }
 }
