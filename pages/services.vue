@@ -3,11 +3,11 @@
     <div slot="content">
       <info-diamonds :data="services"/>
       <stepper title="Work Flow" :data="process"/>
-      <section-container title="What people are saying..">
+      <!-- <section-container title="What people are saying..">
         <div slot="content">
           <carousel :data="testimonials"/>
         </div>
-      </section-container>
+      </section-container>-->
       <section-container title="Get in Touch">
         <div slot="content">
           <contact-form/>
