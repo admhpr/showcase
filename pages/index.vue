@@ -31,9 +31,12 @@
           <li>
             <nuxt-link to="/portfolio">Portfolio</nuxt-link>
           </li>
+          <li>
+            <nuxt-link to="/contact">Contact</nuxt-link>
+          </li>
 
           <li>
-            <a href="https://blog.harpur.io" data-section="blog">My Blog</a>
+            <a href="https://blog.harpur.io" data-section="blog">Blog</a>
           </li>
         </ul>
       </nav>

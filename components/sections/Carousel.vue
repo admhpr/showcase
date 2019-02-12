@@ -2,7 +2,7 @@
   <div>
     <section-title v-if="title" :title="title"/>
     <carousel>
-      <slide v-for="item in data" :key="item.tile">
+      <slide v-for="item in data" :key="item.title">
         <div class="testimonial">
           <p>{{item.info}}</p>
 
