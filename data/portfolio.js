@@ -7,13 +7,13 @@ export default [{
     },
     {
         title: "Writing",
-        info: `${base}writing.png`,
+        info: `${base}experimental.png`,
         location: "https://blog.harpur.io",
         meta: "View",
     },
     {
         title: "Open Source",
-        info: `${base}open-source.png`,
+        info: `${base}experimental.png`,
         location: "https://github.com/harps116",
         meta: "View"
     },
