@@ -230,7 +230,7 @@ body.section-show .section.active {
 
     h2 {
         text-transform: uppercase;
-        color: #fff;
+        color: #333;
         text-align: center;
         position: relative;
         font-size: 17px;
@@ -257,7 +257,7 @@ body.section-show .section.active {
 
     a,
     p {
-        color: #FFF;
+        color: #333;
         opacity: 0;
         filter: alpha(opacity=0);
         transition: opacity 0.35s, transform 0.35s;
@@ -265,9 +265,13 @@ body.section-show .section.active {
     }
 
     &:hover {
+        h2 {
+            color: #FFF
+        }
 
         a,
         p {
+            color: #FFF;
             opacity: 1;
             filter: alpha(opacity=100);
             transform: translate3d(0, 0, 0);
