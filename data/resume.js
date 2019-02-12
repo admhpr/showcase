@@ -12,8 +12,8 @@ export default [{
                 meta: "2016 - Present"
             },
             {
-                title: "Traveling",
-                info: "I have a large portion of my life travelling which has taught me many things",
+                title: "Travelling",
+                info: "I have spent a large portion of my life travelling which has taught me many things",
                 location: "America, Australia, Europe",
                 meta: "2008 - Present",
             },
