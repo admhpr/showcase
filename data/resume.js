@@ -7,15 +7,15 @@ export default [{
                 meta: "May 2016 - May 2018"
             },
             {
+                title: "Various Courses",
+                info: "I have done a number of courses on Frontend Master, Udemy and Udacity",
+                meta: "2016 - Present"
+            },
+            {
                 title: "Traveling",
                 info: "I have a large portion of my life travelling which has taught me many things",
                 location: "America, Australia, Europe",
                 meta: "2008 - Present",
-            },
-            {
-                title: "Various Courses",
-                info: "I have done a number of courses on Frontend Master, Udemy and Udacity",
-                meta: "2016 - Present"
             },
         ]
     },
@@ -49,7 +49,7 @@ export default [{
                 meta: "Sept 2017 - Nov 2018"
             },
             {
-                title: "Linux Users Grou",
+                title: "Linux Users Group",
                 location: "La Crosse, WI",
                 info: "Talking Linux with other enthusiasts",
                 meta: "Sept 2017 - Nov 2018"
