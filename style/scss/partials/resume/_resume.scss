@@ -197,6 +197,8 @@
   font-size: 0;
   background: $highlight-color;
   color: $white;
+  background-image: url(../../assets/img/writing.png);
+  background-size: contain;
 
   transform: rotate(45deg);
   width: 80px;
