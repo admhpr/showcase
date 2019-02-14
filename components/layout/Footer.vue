@@ -8,6 +8,15 @@
           </div>
           <social-links></social-links>
         </div>
+        <div class="row">
+          <div class="col-lg-6">&copy; adam.harpur.io {{year}}</div>
+          <div class="col-lg-6 text-right">
+            Proudly made with
+            <a href="https://nuxtjs.org/">
+              <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt logo">
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -22,6 +31,11 @@ export default {
   link: [{ rel: "stylesheet", href: "bootstrap/css/bootstrap.min.css" }],
   components: {
     SocialLinks
+  },
+  computed: {
+    year: function() {
+      return new Date().getFullYear();
+    }
   }
 };
 </script>
