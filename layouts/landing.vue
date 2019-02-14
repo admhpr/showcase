@@ -1,15 +1,14 @@
 <template>
   <div class="section-show">
     <nuxt/>
-    <footer/>
+    <footer-section/>
   </div>
 </template>
 <script>
-import Footer from "~/components/layout/Footer";
+import FooterSection from "~/components/layout/Footer";
 export default {
-  head: {
-    meta: [{ name: "viewpart", content: "width=device-width, initial-scale=1" }]
-  },
-  link: [{ rel: "stylesheet", href: "bootstrap/css/bootstrap.min.css" }]
+  components: {
+    FooterSection
+  }
 };
 </script>

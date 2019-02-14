@@ -41,9 +41,7 @@
         </ul>
       </nav>
 
-      <div class="front-heading text-center">
-        <h2>Adam Harpur</h2>
-      </div>
+      <div class="front-heading text-center"></div>
     </div>
   </section>
 </template>

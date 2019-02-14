@@ -9,10 +9,15 @@
           <social-links></social-links>
         </div>
         <div class="row">
-          <div class="col-lg-6">&copy; adam.harpur.io {{year}}</div>
+          <div class="col-lg-6">
+            <a href>Acknowledgements</a>
+          </div>
           <div class="col-lg-6 text-right">
+            &copy; adam.harpur.io {{year}}.
             Proudly made with
-            <a href="https://nuxtjs.org/">
+            <a
+              href="https://nuxtjs.org/"
+            >
               <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt logo">
             </a>
           </div>
