@@ -185,7 +185,7 @@
   margin-bottom: 100px;
 }
 
-.hobby {
+.diamond-section {
   position: relative;
   text-align: center;
   margin-bottom: 70px;
@@ -193,7 +193,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.hobby>.info-diamond {
+.diamond-section>.info-diamond {
   font-size: 0;
   background: $highlight-color;
   color: $white;
@@ -212,11 +212,11 @@
   top: 0;
 }
 
-.hobby:hover>.info-diamond {
+.diamond-section:hover>.info-diamond {
   top: -15px;
 }
 
-.hobby>.info-diamond>i {
+.diamond-section>.info-diamond>i {
   display: block;
   height: inherit;
   width: inherit;
@@ -226,13 +226,13 @@
   transform: rotate(-45deg);
 }
 
-.hobby>.info-diamond>i:before {
+.diamond-section>.info-diamond>i:before {
   vertical-align: middle;
   font-size: 45px;
   line-height: 1em;
 }
 
-.hobby>h4 {
+.diamond-section>h4 {
   font-size: 18px;
   letter-spacing: 2px;
   margin-top: 0;
