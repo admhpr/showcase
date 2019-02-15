@@ -10,7 +10,7 @@
         </div>
         <div class="row">
           <div class="col-lg-6">
-            <a href>Acknowledgements</a>
+            <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
           </div>
           <div class="col-lg-6 text-right">
             &copy; adam.harpur.io {{year}}.

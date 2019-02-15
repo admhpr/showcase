@@ -12,7 +12,7 @@
         
         <span class="t2">Programmer</span>
         
-        <span class="t3">Maker</span>
+        <span class="t3">Developer</span>
       </div>
       <nav class="front-person-links">
         <ul>

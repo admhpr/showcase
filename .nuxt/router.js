@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 
 const _784f088a = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _70e6b40a = () => interopDefault(import('../pages/acknowledgements.vue' /* webpackChunkName: "pages/acknowledgements" */))
 const _32254d4e = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _2f1f0cf6 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
 const _435deaef = () => interopDefault(import('../pages/resume.vue' /* webpackChunkName: "pages/resume" */))
@@ -73,6 +74,10 @@ export function createRouter() {
       path: "/about",
       component: _784f088a,
       name: "about"
+    }, {
+      path: "/acknowledgements",
+      component: _70e6b40a,
+      name: "acknowledgements"
     }, {
       path: "/contact",
       component: _32254d4e,
