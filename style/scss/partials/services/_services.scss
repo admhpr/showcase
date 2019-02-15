@@ -17,42 +17,6 @@
     margin-bottom: 120px;
 }
 
-.service>.info-diamond {
-    transform: rotate(45deg);
-    height: 90px;
-    width: 90px;
-    line-height: 90px;
-    vertical-align: middle;
-    text-align: center;
-    margin: auto;
-    background-image: url(../../assets/img/writing.png);
-    transition: all 0.3s ease-in-out;
-    font-size: 0;
-    background: $highlight-color;
-    color: $white;
-    position: relative;
-    top: 0;
-}
-
-.service:hover>.info-diamond {
-    top: -15px;
-}
-
-.service>.info-diamond>i:before {
-    line-height: 1em;
-    vertical-align: middle;
-    font-size: 45px;
-}
-
-.service>.info-diamond>i {
-    display: inline-block;
-    line-height: inherit;
-    height: inherit;
-    width: inherit;
-
-    transform: rotate(-45deg);
-}
-
 .service>.content>h4 {
     font-size: 20px;
     margin-top: 50px;
