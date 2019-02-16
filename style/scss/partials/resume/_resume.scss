@@ -193,51 +193,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-.info-diamond {
-  font-size: 0;
-  background: $highlight-color;
-  color: $white;
-  background-image: url(../../assets/img/writing.png);
-  background-size: contain;
-
-  transform: rotate(45deg);
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  margin: auto;
-  margin-bottom: 40px;
-
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  top: 0;
-}
-
-.diamond-section:hover>.info-diamond {
-  top: -15px;
-}
-
-.diamond-section>.info-diamond>i {
-  display: block;
-  height: inherit;
-  width: inherit;
-  line-height: inherit;
-  text-align: center;
-
-  transform: rotate(-45deg);
-}
-
-.diamond-section>.info-diamond>i:before {
-  vertical-align: middle;
-  font-size: 45px;
-  line-height: 1em;
-}
-
-.diamond-section>h4 {
-  font-size: 18px;
-  letter-spacing: 2px;
-  margin-top: 0;
-  margin-top: 2px;
-}
 
 .skills-block {
   padding: 100px 0;
