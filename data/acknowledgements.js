@@ -1,20 +1,33 @@
-import imgBase from "./common"
 export default [{
-        title: "Experimental",
-        info: `${imgBase}experimental.png`,
+        title: "Daniel Shiffman",
         location: "https://codinglab.tech/",
-        meta: "View"
     },
     {
-        title: "Writing",
-        info: `${imgBase}experimental.png`,
-        location: "https://blog.harpur.io",
-        meta: "View",
+        title: "Niall Kader",
+        location: "https://www.linkedin.com/in/niall-kader-48b5469/",
     },
     {
-        title: "Open Source",
-        info: `${imgBase}experimental.png`,
+        title: "Sarah Drasner",
+        location: "https://sarahdrasnerdesign.com/",
+    },
+    {
+        title: "Evan You",
+        location: "https://evanyou.me/",
+    },
+    {
+        title: "Kent Safranski",
         location: "https://github.com/harps116",
-        meta: "View"
+    },
+    {
+        title: "Marshall Pierce",
+        location: "https://mpierce.org/ ",
+    },
+    {
+        title: "Isaac Weaver",
+        location: "https://github.com/wisaac407",
+    },
+    {
+        title: "Matthew Metzger",
+        location: "https://www.linkedin.com/in/matthewmetzger/",
     },
 ]

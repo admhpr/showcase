@@ -1,4 +1,6 @@
-import imgBase from "./common"
+import {
+    imgBase
+} from "./common"
 export default [{
         title: "Experimental",
         info: `${imgBase}experimental.png`,
