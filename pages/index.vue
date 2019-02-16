@@ -14,7 +14,7 @@
         
         <span class="t3">Developer</span>
       </div>
-      <nav class="front-person-links">
+      <nav class="nav-links">
         <ul>
           <li>
             <nuxt-link to="/about">About</nuxt-link>

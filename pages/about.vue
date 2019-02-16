@@ -9,7 +9,7 @@
               <img src="img/me_ah.png" alt="adam">
             </div>
           </div>-->
-          <div class="col-md-10 about-info">
+          <div class="col-md-10">
             <p>
               Being a developer to me is more than just writing code. It's about solving real problems, algorithmically and
               otherwise.Nothing gives me more satisfaction than creating a tool that solves a problem for someone in the real world.

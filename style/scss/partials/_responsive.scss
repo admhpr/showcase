@@ -28,7 +28,7 @@
         transform: rotate(-45deg) translateY(45px);
     }
 
-    .front-person-links {
+    .nav-links {
         transform: rotate(0deg);
         margin-top: 110px;
         text-align: center;
@@ -38,50 +38,44 @@
         height: auto;
     }
 
-    .front-person-links>ul {
+    .nav-links>ul {
         top: 0;
         left: auto;
         position: relative;
         display: inline-block;
         *display: inline;
         *zoom: 1;
-
-
-
-
         transform: none;
     }
 
-    .front-person-links>ul>li {
+    .nav-links>ul>li {
         margin-bottom: 1px;
         display: block;
     }
 
-    .front-person-links>ul>li>a:before,
-    .front-person-links>ul>li>a:after {
+    .nav-links>ul>li>a:before,
+    .nav-links>ul>li>a:after {
         position: absolute;
         left: 0;
         height: 2px;
         top: 50%;
         margin-top: -1px;
         display: block;
-
-
         box-shadow: none;
         opacity: .5;
         display: none;
     }
 
-    .front-person-links>ul>li>a:after {
+    .nav-links>ul>li>a:after {
         left: auto;
         right: 0;
     }
 
-    .front-person-links>ul>li>a:hover:before {
+    .nav-links>ul>li>a:hover:before {
         width: 15px;
     }
 
-    .front-person-links>ul>li>a {
+    .nav-links>ul>li>a {
         text-align: center;
         padding: 22px 48px;
         display: block;
@@ -119,7 +113,7 @@
 
 @media (max-width:768px) {
 
-    .front-person-links {
+    .nav-links {
         margin-top: 65px;
     }
 

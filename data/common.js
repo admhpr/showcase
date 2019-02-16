@@ -1,0 +1,1 @@
+export const imgBase = '/_nuxt/assets/img/'
