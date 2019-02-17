@@ -282,3 +282,17 @@ body.section-show .section.active {
         }
     }
 }
+
+.contact-message-hidden {
+    transition: all 4s ease;
+    opacity: 0;
+}
+
+.contact-message {
+    transition: all 4s ease;
+    opacity: 1;
+}
+
+.input-error {
+    border: solid 1px $accent-4 !important;
+}
