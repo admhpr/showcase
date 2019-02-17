@@ -48,12 +48,14 @@ app.post('/', (req, res) => {
     if (someInvalid) {
         // not processed
         return res.status(422).json({
-            'failed': failed
+            'status': "failed",
+            'message': failed
         })
     }
 
     sendMail(...sanitizedAttributes)
     res.status(200).json({
+        'status': 'success',
         'message': 'message sent'
     })
 })

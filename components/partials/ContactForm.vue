@@ -6,16 +6,16 @@
       v-on:submit.prevent="onSubmit"
     >
       <div class="form-group">
-        <input class="form-control" v-model.trim="name" placeholder="Name">
+        <input class="form-control" v-model.trim="form.name" placeholder="Name">
         <div class="help-block with-errors"></div>
       </div>
 
       <div class="form-group">
-        <input class="form-control" v-model.trim="email" placeholder="Email">
+        <input class="form-control" v-model.trim="form.email" placeholder="Email">
       </div>
 
       <div class="form-group">
-        <textarea class="form-control" v-model.trim="message" placeholder="Message"></textarea>
+        <textarea class="form-control" v-model.trim="form.message" placeholder="Message"></textarea>
       </div>
 
       <div class="form-group text-center">
@@ -28,13 +28,23 @@
 <script>
 export default {
   data: function() {
-    return {
-      name: "",
-      email: "",
-      message: ""
-    };
+    return this.initState();
   },
   methods: {
+    initState: function() {
+      return {
+        form: {
+          name: "",
+          email: "",
+          message: ""
+        }
+      };
+    },
+    resetForm: function() {
+      this.name = "";
+      this.email = "";
+      this.message = "";
+    },
     onSubmit: function() {
       fetch("/api/contact", {
         method: "POST",
@@ -45,7 +55,13 @@ export default {
         body: JSON.stringify(this.$data)
       })
         .then(res => res.json())
-        .then(res => console.log(res));
+        .then(res => {
+          if (res.status !== "success") {
+            console.log("here");
+            return;
+          }
+          this.resetForm();
+        });
     }
   }
 };
