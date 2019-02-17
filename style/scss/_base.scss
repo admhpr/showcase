@@ -178,6 +178,10 @@ body.section-show .section.active {
 }
 
 .links {
+    li {
+        list-style: none;
+    }
+
     a {
         color: $accent-3;
 
