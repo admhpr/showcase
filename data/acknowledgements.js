@@ -1,6 +1,6 @@
 export default [{
         title: "Daniel Shiffman",
-        location: "https://codinglab.tech/",
+        location: "https://shiffman.net/",
     },
     {
         title: "Niall Kader",
@@ -16,7 +16,7 @@ export default [{
     },
     {
         title: "Kent Safranski",
-        location: "https://github.com/harps116",
+        location: "https://fluidbyte.github.io/",
     },
     {
         title: "Marshall Pierce",
