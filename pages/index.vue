@@ -1,6 +1,6 @@
 <template>
   <section class="section-container">
-    <div id="diamond-wrapper" class="container">
+    <div id="diamond-wrapper">
       <div class="transition-mask"></div>
 
       <div class="front-person-img">
