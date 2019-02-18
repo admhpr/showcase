@@ -3,17 +3,14 @@
     <div class="footer bg-lightgray section-block">
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-lg-10 text-left">
-            <h4>Adam Harpur</h4>
-          </div>
           <social-links></social-links>
         </div>
         <div class="row">
-          <div class="col-lg-6">
-            <span class="link">
-              <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
-            </span>
-          </div>
+          <span class="link">
+            <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
+          </span>
+        </div>
+        <div class="row">
           <div class="col-lg-6 text-right">
             &copy; adam.harpur.io {{year}}.
             Proudly made with
