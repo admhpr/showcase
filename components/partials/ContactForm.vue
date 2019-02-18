@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form
+    <!-- <form
       id="contact-form"
       class="col-md-8 offset-md-2 contact-form"
       v-on:submit.prevent="onSubmit"
@@ -36,7 +36,7 @@
       <div
         :class="{ 'text-center' : true, 'contact-message' : this.message.length > 0 && !hideMessage, 'contact-message-hidden': hideMessage}"
       >{{this.message}}</div>
-    </form>
+    </form>-->
   </div>
 </template>
 

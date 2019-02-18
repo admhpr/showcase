@@ -4,7 +4,7 @@
     <div slot="content">
       <div class="row">
         <div class="col-md-10">
-          <p>These are some people that have helped make me a better programmer ( whether they realise it or not):</p>
+          <p>These are some people that have helped make me a better programmer (whether they realise it or not):</p>
           <div class="links">
             <ul>
               <a :key="item.title" v-for="item in acknowledgements" :href="item.location">

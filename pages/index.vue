@@ -32,7 +32,7 @@
             <nuxt-link to="/portfolio">Portfolio</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/contact">Contact</nuxt-link>
+            <nuxt-link to="mailto:adam@harpur.io">Contact</nuxt-link>
           </li>
 
           <li>

@@ -152,9 +152,9 @@ body.section-show .transition-mask:before {
     // width: $diamond-demension;
     height: $diamond-demension;
     margin-top: -$diamond-demension;
-    z-index: 25;
-    transform: rotate(0deg);
     position: relative;
+    margin-right: 200px;
+
 }
 
 .nav-links>ul>li {

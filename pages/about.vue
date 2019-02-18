@@ -43,8 +43,10 @@
           <info-diamonds :data="softSkills"/>
         </div>
         <section-container title="Open Source Activity">
-          <div class="vue-github-wrapper" slot="content">
-            <vue-github class="vue-github" username="harps116"/>
+          <div slot="content">
+            <div class="col-lg-10 col-xs-12">
+              <vue-github class="vue-github" username="harps116"/>">
+            </div>
           </div>
         </section-container>
       </div>
