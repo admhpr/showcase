@@ -115,6 +115,7 @@
 
     .nav-links {
         margin-top: 65px;
+        margin-right: 0;
     }
 
     .front-person-img {
@@ -127,9 +128,7 @@
     .front-person-img>img {
         transform: rotate(-90deg) translateY(0px);
         position: absolute;
-        height: 120px;
         padding: 0;
         top: 0;
-        margin-top: 15px;
     }
 }
