@@ -44,8 +44,8 @@
         </div>
         <section-container title="Open Source Activity">
           <div slot="content">
-            <div class="col-lg-10 col-xs-12">
-              <vue-github class="vue-github" username="harps116"/>">
+            <div class="col-lg-10 offset-lg-1">
+              <vue-github class="vue-github" username="harps116"/>
             </div>
           </div>
         </section-container>
@@ -78,14 +78,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .vue-github-wrapper {
   display: flex;
   justify-content: center;
 }
 
 .vue-github {
-  width: 70%;
+  width: 100%;
 }
 </style>
 
