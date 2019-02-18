@@ -8,6 +8,26 @@ export default {
   serverMiddleware: [
     '~/api/contact'
   ],
+  head: {
+    title: 'adam["harpur"].i()',
+    meta: [{
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        name: 'keywords',
+        content: 'adam harpur, web developer'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Portfolio for Adam Harpur'
+      }
+    ],
+  },
   plugins: [
     '~/plugins/fontawesome.js',
     {
