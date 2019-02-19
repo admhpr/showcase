@@ -11,7 +11,7 @@
           </span>
         </div>
         <div class="row">
-          <div class="col-lg-6 text-right">
+          <div class="col-lg-6 col-xs-12 text-right">
             &copy; adam.harpur.io {{year}}.
             Proudly made with
             <a
