@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "serve": "nuxt start"
+    "serve": "nuxt start",
+    "deploy": "npm i && pm2 restart 0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
