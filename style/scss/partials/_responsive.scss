@@ -118,6 +118,11 @@
         margin-right: 0;
     }
 
+    .timeline>li>.timeline-content {
+        float: right;
+        text-align: left;
+    }
+
     .front-person-img {
         width: 65%;
         padding-top: 60%;

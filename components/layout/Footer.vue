@@ -6,16 +6,22 @@
           <social-links></social-links>
         </div>
         <div class="row">
-          <span class="link">
-            <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
-          </span>
+          <p class="text-center">
+            <span class="link">
+              <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
+            </span>
+          </p>
         </div>
         <div class="row">
-          &copy; adam.harpur.io {{year}}.
-          Proudly made with
-          <a href="https://nuxtjs.org/">
-            <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt logo">
-          </a>
+          <p class="text-center">
+            &copy; adam.harpur.io {{year}}.
+            Proudly made with
+            <a
+              href="https://nuxtjs.org/"
+            >
+              <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt logo">
+            </a>
+          </p>
         </div>
       </div>
     </div>

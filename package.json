@@ -17,7 +17,7 @@
     "vue": "^2.6.6",
     "vue-apexcharts": "^1.2.9",
     "vue-carousel": "^0.17.0",
-    "vue-github": "^0.9.20",
+    "vue-github": "^0.9.21",
     "vue-server-renderer": "^2.4.4",
     "xss-filters": "^1.2.7"
   },

@@ -1,18 +1,21 @@
 <template>
   <div>
-    <section-container title="Skills and Attributes">
+    <section-container title="Skills and Attributes*">
       <div slot="content">
         <div class="row">
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-xs-12">
             <apexchart type="pie" :options="skillsPie.chartOptions" :series="skillsPie.series"></apexchart>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-xs-12">
             <apexchart
               type="donut"
               :options="attributesPie.chartOptions"
               :series="attributesPie.series"
             ></apexchart>
           </div>
+          <p
+            class="text-center"
+          >* note that these values are based on my own perception and the results of a number self-accessment exercises.</p>
         </div>
         <section-container title="Knowledge and learning">
           <div slot="content">
