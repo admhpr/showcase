@@ -49,5 +49,13 @@ export default {
     beforeEnter(el) {
       console.log('Before enter...');
     }
-  }
+  },
+  build: {
+    filenames: {
+      css: ({
+        isDev
+      }) => isDev ? '[name].css' : '[contenthash].css',
+    }
+  },
+  optimizeCSS: true
 }
