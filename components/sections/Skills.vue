@@ -42,6 +42,21 @@
 
 <script>
 import SectionContainer from "~/components/containers/Section";
+function getResponsiveConfig() {
+  return [
+    {
+      breakpoint: 480,
+      options: {
+        chart: {
+          width: 300
+        },
+        legend: {
+          position: "bottom"
+        }
+      }
+    }
+  ];
+}
 export default {
   props: {
     skills: Array
@@ -53,7 +68,8 @@ export default {
     return {
       skillsPie: {
         chartOptions: {
-          labels: ["JavaScript", "CSS", "HTML", "Python", "PHP", "MySQl"]
+          labels: ["JavaScript", "CSS", "HTML", "Python", "PHP", "MySQl"],
+          responsive: getResponsiveConfig()
         },
         series: [40, 17.5, 17.5, 5, 10, 10]
       },
@@ -66,7 +82,8 @@ export default {
             "Curious",
             "Competent",
             "Creative"
-          ]
+          ],
+          responsive: getResponsiveConfig()
         },
         series: [20, 20, 20, 20, 20, 20]
       },
