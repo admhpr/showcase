@@ -16,7 +16,7 @@ export default [{
     },
     {
         title: "Reliable",
-        info: "I respect the time of others. I don't show up late or take unnecessary days off"
+        info: "I respect the time of others. I don't show up late or take unnecessary days off."
     },
     {
         title: "Honest",
@@ -28,6 +28,6 @@ export default [{
     },
     {
         title: "Critical Thinker",
-        info: "Being able to take an objective view on a given situation is vital to making better decisions"
+        info: "Being able to take an objective view on a given situation is vital to making better decisions."
     },
 ]

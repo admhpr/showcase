@@ -18,7 +18,7 @@
             </p>
             <br>
             <p>
-              In 2016 a fell into a course that taught basic web skills like HTML and CSS. I was hooked and have lived a
+              In 2016 I fell into a course that taught basic web skills like HTML and CSS. I was hooked and have lived and
               breathed it since. In May 2018, I graduated with high honors from Western Technical College, Wisconsin, with an Associates in Applied Science with a
               focus on web and software development and design. I have worked in the industry since 2017.
             </p>
