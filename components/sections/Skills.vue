@@ -52,6 +52,9 @@ function getResponsiveConfig() {
         },
         legend: {
           position: "bottom"
+        },
+        dataLabels: {
+          enabled: false
         }
       }
     }
