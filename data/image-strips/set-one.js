@@ -1,17 +1,19 @@
-const base = '/_nuxt/assets/img/'
+import {
+    imgBase
+} from "../common"
 export default [{
-    src: `${base}6.png`,
+    src: `${imgBase}6.png`,
     alt: ''
 }, {
-    src: `${base}6.png`,
+    src: `${imgBase}6.png`,
     alt: ''
 }, {
-    src: `${base}6.png`,
+    src: `${imgBase}6.png`,
     alt: ''
 }, {
-    src: `${base}6.png`,
+    src: `${imgBase}6.png`,
     alt: ''
 }, {
-    src: `${base}6.png`,
+    src: `${imgBase}6.png`,
     alt: ''
 }, ]

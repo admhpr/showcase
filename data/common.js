@@ -1,1 +1,1 @@
-export const imgBase = '~/assets/img/'
+export const imgBase = '/_nuxt/assets/img/'
