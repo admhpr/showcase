@@ -6,11 +6,13 @@
           <social-links></social-links>
         </div>
         <div class="row">
-          <p class="text-center">
-            <span class="link">
-              <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
-            </span>
-          </p>
+          <div class="col-md-12">
+            <p class="text-center">
+              <span class="link">
+                <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
+              </span>
+            </p>
+          </div>
         </div>
         <div class="row">
           <p class="text-center">
