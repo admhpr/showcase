@@ -11,7 +11,7 @@ import _103c6d61 from '../layouts/landing.vue'
 const layouts = { "_default": _6f6c098b,"_landing": _103c6d61 }
 
 export default {
-  head: {"title":"adam[\"harpur\"].i()","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"keywords","content":"adam harpur, web developer"},{"hid":"description","name":"description","content":"Portfolio for Adam Harpur"}],"link":[],"style":[],"script":[]},
+  head: {"title":"adam[\"harpur\"].i( )","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"name":"keywords","content":"adam harpur, web developer"},{"hid":"description","name":"description","content":"Portfolio for Adam Harpur"}],"link":[],"style":[],"script":[]},
 
   render(h, props) {
     const loadingEl = h('NuxtLoading', { ref: 'loading' })

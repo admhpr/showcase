@@ -9,7 +9,7 @@ export default {
     '~/api/contact'
   ],
   head: {
-    title: 'adam["harpur"].i()',
+    title: 'adam["harpur"].i( )',
     meta: [{
         charset: 'utf-8'
       },
@@ -48,13 +48,6 @@ export default {
     mode: 'out-in',
     beforeEnter(el) {
       console.log('Before enter...');
-    }
-  },
-  build: {
-    filenames: {
-      css: ({
-        isDev
-      }) => isDev ? '[name].css' : '[contenthash].css',
     }
   },
   optimizeCSS: true
