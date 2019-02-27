@@ -2,7 +2,7 @@
 <template>
   <div>
     <section-container title="About Me">
-      <div slot="content">
+      <template v-slot:content>
         <div class="row">
           <!-- <div class="col-md-4">
             <div class="about-person-img">
@@ -43,13 +43,13 @@
           <info-diamonds :data="softSkills"/>
         </div>
         <section-container title="Open Source Activity">
-          <div slot="content">
+          <template v-slot:content>
             <div class="col-lg-10 offset-lg-1">
               <vue-github class="vue-github" username="harps116"/>
             </div>
-          </div>
+          </template>
         </section-container>
-      </div>
+      </template>
     </section-container>
   </div>
 </template>

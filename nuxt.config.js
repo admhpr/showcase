@@ -36,7 +36,7 @@ export default {
     },
     {
       src: '~plugins/vue-github',
-      ssr: false
+      ssr: false,
     },
     {
       src: '~plugins/vue-carousel',
