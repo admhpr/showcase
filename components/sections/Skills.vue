@@ -1,7 +1,7 @@
 <template>
   <div>
     <section-container title="Skills and Attributes*">
-      <div slot="content">
+      <template v-slot:content>
         <div class="row">
           <div class="col-lg-5 col-xs-12">
             <apexchart type="pie" :options="skillsPie.chartOptions" :series="skillsPie.series"></apexchart>
@@ -35,7 +35,7 @@
             </div>
           </div>
         </section-container>
-      </div>
+      </template>
     </section-container>
   </div>
 </template>
