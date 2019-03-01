@@ -1,61 +1,76 @@
 <template>
-  <div>
-    <pre>     
-      ## Some context
+  <section-container title="README">
+    <template v-slot:content>
+      <div class="row">
+        <div class="col-md-12">
+          <pre class="readme">     
 
-      This is a way for me to give a recruiter, manager, team mate (present or future) some context of who I am and what I'm about.
-      
-      ## About Me
+            This is a way for me to give a recruiter, manager, team mate (present or future) some context of who I am 
+            and what I'm about.    
 
-      This is not a resume, just a high level over view.
+            This is not a resume, just a high level over view.
 
-      ### Personal
+            ## About Me
 
-      - I have travelled extensively and lived in a number of countries and states.
+            ### Personal
 
-      - I love to snowboard, surf and wakeboard and don't do it nearly as much as I'd like to.
+            - I have travelled extensively and lived in a number of countries and states.
 
-      - I value family, friends, creativity, thought, care, exercise, disciplined practice, meditation.
+            - I love to snowboard, surf and wakeboard and don't do it nearly as much as I'd like to.
 
-      - I want to have a meaningful live and postively impact others around me.
+            - I value family, friends, creativity, thought, care, exercise, disciplined practice, meditation.
 
-      ### Professional
+            - I want to have a meaningful live and postively impact others around me.
 
-      - I am full stack developer, but often find myself tinkering with the frontend.
+            ### Professional
 
-      - My primary language is JavaScript. I can also write PHP, Python and I am happy to learn any other language or framework aslong as I am given the time and resources to do so.
+            - I am full stack developer, but often find myself tinkering with the frontend.
 
-      - I have used strongly typed languages and enjoy using them
+            - My primary language is JavaScript. I can also write PHP, Python and I am happy to learn any other language or 
+              framework aslong as I am given the time and resources to do so.
 
-      - I like to work in teams that communicate well and open the doors to collabaration.
+            - I have used strongly typed languages and enjoy using them
 
-      - A big motivator for me is being given a small section of the work week to improve my skillset relevant to the job at hand.
+            - I like to work in teams that communicate well and open the doors to collabaration.
 
-      - I really do love writing code and always strive to make it readable and maintainable. 
-      
-      ## My Current Toolbelt:
+            - A big motivator for me is being given a small section of the work week to improve my skillset relevant to the 
+              job at hand.
 
-      - Node on the server side. I am open to new approaches and languages.
-      
-      - Databases - whatever SQL or NoSQL is just fine.
-      
-      - I quite like Vue on the front end but have used React alongside TypeScript.
+            - I really love writing code and always strive to make it readable and maintainable. 
+            
+            ## My Current Toolbelt:
 
-      - I generally deploy to Digital Ocean, but would like to learn AWS.
+            - Node on the server side. I am open to new approaches and languages.
+            
+            - Databases - whatever SQL or NoSQL is just fine.
+            
+            - I quite like Vue on the front end but have used React alongside TypeScript.
 
-      - For managing projects, I just fit-in with whatever the team is using.
+            - I generally deploy to Digital Ocean, but would like to learn AWS.
 
-      - I use Linux for an OS, I can use other systems but I would rather not.
-    
+            - For managing projects, I just fit-in with whatever the team is using.
 
-      That's about it, thank you!
+            - I have a some DevOps experience with Docker, Ansible and Terraform.
+
+            - I use Linux for an OS, I can use other systems but I would rather not.
+            
+
+            That's about it, thank you!
 
       </pre>
-  </div>
+        </div>
+      </div>
+    </template>
+  </section-container>
 </template>
 
 <script>
-export default {};
+import SectionContainer from "~/components/containers/Section";
+export default {
+  components: {
+    SectionContainer
+  }
+};
 </script>
 
 <style scoped>

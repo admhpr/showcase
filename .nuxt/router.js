@@ -6,6 +6,7 @@ const _784f088a = () => interopDefault(import('../pages/about.vue' /* webpackChu
 const _70e6b40a = () => interopDefault(import('../pages/acknowledgements.vue' /* webpackChunkName: "pages/acknowledgements" */))
 const _32254d4e = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _2f1f0cf6 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
+const _723ed3f0 = () => interopDefault(import('../pages/readme.vue' /* webpackChunkName: "pages/readme" */))
 const _435deaef = () => interopDefault(import('../pages/resume.vue' /* webpackChunkName: "pages/resume" */))
 const _410a9fc0 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
 const _38df5300 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -100,6 +101,10 @@ export function createRouter() {
       path: "/portfolio",
       component: _2f1f0cf6,
       name: "portfolio"
+    }, {
+      path: "/readme",
+      component: _723ed3f0,
+      name: "readme"
     }, {
       path: "/resume",
       component: _435deaef,

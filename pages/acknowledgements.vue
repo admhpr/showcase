@@ -1,7 +1,7 @@
 
 <template>
   <section-container title="Acknowledgements">
-    <div slot="content">
+    <template v-slot:content>
       <div class="row">
         <div class="col-md-10">
           <p>These are some people that have helped make me a better programmer (whether they realise it or not):</p>
@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </template>
   </section-container>
 </template>
 
