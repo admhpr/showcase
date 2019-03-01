@@ -30,4 +30,8 @@ export default [{
         title: "Matthew Metzger",
         location: "https://www.linkedin.com/in/matthewmetzger/",
     },
+    {
+        title: "Derek Sivers",
+        location: "https://sivers.org/",
+    },
 ]
