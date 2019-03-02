@@ -4,7 +4,7 @@ import {
 export default [{
         title: "Experimental",
         info: `${imgBase}experimental.png`,
-        location: "https://codinglab.tech/",
+        location: "https://codinglab.online/",
         meta: "View"
     },
     {
