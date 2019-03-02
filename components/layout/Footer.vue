@@ -10,7 +10,6 @@
             <p class="text-center">
               <span class="link">
                 <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
-                <nuxt-link to="/readme">README</nuxt-link>
               </span>
             </p>
           </div>
