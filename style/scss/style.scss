@@ -1,28 +1,30 @@
 //libs
 @import "libs/index";
+// vars
+@import "variables";
+
 
 // general
-@import "variables";
 @import "base";
 
-//layout
+// layout
 @import "layout/footer";
 
-//containers
+// containers
 @import "containers/index";
 
+// pages
+@import "pages/404/index";
+@import "pages/about/index";
+@import "pages/portfolio/index";
+@import "pages/resume/index";
+@import "pages/services/index";
+
 // partials
-@import "partials/preloader";
 @import "partials/front-section";
-@import "partials/sections/index";
-@import "partials/about/index";
-@import "partials/resume/index";
-@import "partials/services/index";
-@import "partials/blog";
-@import "partials/portfolio/index";
-@import "partials/contact";
-@import "partials/single-post";
+@import "partials/preloader";
 @import "partials/responsive";
+@import "partials/sections/index";
 
 .fade-enter-active,
 .fade-leave-active {

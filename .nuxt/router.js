@@ -5,11 +5,13 @@ import { interopDefault } from './utils'
 const _784f088a = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _70e6b40a = () => interopDefault(import('../pages/acknowledgements.vue' /* webpackChunkName: "pages/acknowledgements" */))
 const _32254d4e = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
+const _3def77f8 = () => interopDefault(import('../pages/now.vue' /* webpackChunkName: "pages/now" */))
 const _2f1f0cf6 = () => interopDefault(import('../pages/portfolio.vue' /* webpackChunkName: "pages/portfolio" */))
 const _723ed3f0 = () => interopDefault(import('../pages/readme.vue' /* webpackChunkName: "pages/readme" */))
 const _435deaef = () => interopDefault(import('../pages/resume.vue' /* webpackChunkName: "pages/resume" */))
 const _410a9fc0 = () => interopDefault(import('../pages/services.vue' /* webpackChunkName: "pages/services" */))
 const _38df5300 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _13ce1a8d = () => interopDefault(import('../pages/_.vue' /* webpackChunkName: "pages/_" */))
 
 Vue.use(Router)
 
@@ -98,6 +100,10 @@ export function createRouter() {
       component: _32254d4e,
       name: "contact"
     }, {
+      path: "/now",
+      component: _3def77f8,
+      name: "now"
+    }, {
       path: "/portfolio",
       component: _2f1f0cf6,
       name: "portfolio"
@@ -117,6 +123,10 @@ export function createRouter() {
       path: "/",
       component: _38df5300,
       name: "index"
+    }, {
+      path: "/*",
+      component: _13ce1a8d,
+      name: "all"
     }],
 
     fallback: false
