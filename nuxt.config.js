@@ -8,10 +8,11 @@ export default {
   serverMiddleware: ["~/api/contact"],
   head: {
     title: 'adam["harpur"].i( )',
-    link: {
+    link: [{
       rel: "stylesheet",
+      type: 'text/css',
       href: "https://unpkg.com/vue-github@0.9.22/dist/vueGithub.css"
-    },
+    }],
     meta: [{
         charset: "utf-8"
       },
