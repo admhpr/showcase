@@ -36,7 +36,7 @@ Vue.use(Meta, {
 })
 
 const defaultTransition = {"name":"fade","mode":"out-in","beforeEnter":function(el) {
-      console.log('Before enter...');
+      console.log("Before enter...");
     },"appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext) {

@@ -9,7 +9,7 @@
           class="col-lg-3 col-md-4 col-sm-6 col-xs-12"
         >
           <div class="hovereffect">
-            <img class="img-responsive" :src="item.info">
+            <img class="img-responsive" src="~/static/img/experimental.png">
             <div class="overlay">
               <h2>{{item.title}}</h2>
               <p>
