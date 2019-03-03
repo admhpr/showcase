@@ -18,7 +18,7 @@
 
             - I love to snowboard, surf and wakeboard and don't do it nearly as much as I'd like to.
 
-            - I value family, friends, creativity, thought, care, exercise, disciplined practice, meditation.
+            - I value family, friends, truth, creativity, thought, care, exercise, disciplined practice and a good laugh now and again.
 
             - I want to have a meaningful live and postively impact others around me.
 
