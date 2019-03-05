@@ -3,7 +3,9 @@
     <div slot="content">
       <time-line :data="resume"></time-line>
       <info-diamonds title="Hobbies" :data="hobbies"/>
-      <skills id="skills"/>
+      <no-ssr>
+        <skills id="skills"/>
+      </no-ssr>
     </div>
   </section-container>
 </template>
