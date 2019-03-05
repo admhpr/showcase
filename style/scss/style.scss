@@ -7,8 +7,6 @@
 // general
 @import "base";
 
-// layout
-@import "layout/footer";
 
 // containers
 @import "containers/index";
@@ -23,8 +21,11 @@
 // partials
 @import "partials/front-section";
 @import "partials/preloader";
-@import "partials/responsive";
 @import "partials/sections/index";
+
+// layout
+@import "layout/footer";
+@import "layout/responsive";
 
 .fade-enter-active,
 .fade-leave-active {

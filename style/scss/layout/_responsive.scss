@@ -20,22 +20,24 @@
     }
 
     .front-person-img {
-        height: auto;
-        width: auto;
+        width: 30%;
+        padding-top: 30%;
+        height: 0;
+        margin-top: 120px;
     }
 
     .front-person-img>img {
-        transform: rotate(-45deg) translateY(45px);
+        transform: rotate(-90deg) translateY(0px);
+        position: absolute;
+        padding: 0;
+        top: 0;
     }
 
     .nav-links {
-        transform: rotate(0deg);
-        margin-top: 110px;
+        margin: 0 auto;
         text-align: center;
         position: relative;
         margin-bottom: 0;
-        width: auto;
-        height: auto;
     }
 
     .nav-links>ul {
@@ -108,6 +110,11 @@
 
     .front-heading {
         margin-top: 80px;
+    }
+
+    .timeline>li>.timeline-content {
+        float: right;
+        text-align: left;
     }
 }
 
