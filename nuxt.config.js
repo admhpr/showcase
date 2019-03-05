@@ -8,18 +8,20 @@ export default {
   serverMiddleware: ["~/api/contact"],
   head: {
     title: 'adam["harpur"].i( )',
-    link: [{
+    link: [
+      {
         rel: "stylesheet",
-        type: 'text/css',
+        type: "text/css",
         href: "https://unpkg.com/vue-github@0.9.22/dist/vueGithub.css"
       },
       {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: './static/favicon.ico',
-      },
+        rel: "icon",
+        type: "image/x-icon",
+        href: "./favicon.ico"
+      }
     ],
-    meta: [{
+    meta: [
+      {
         charset: "utf-8"
       },
       {
@@ -31,9 +33,14 @@ export default {
         content: "adam harpur, web developer"
       },
       {
+        hid: "image",
+        name: "image",
+        content: "./static/img/meta-img-ah.png"
+      },
+      {
         hid: "description",
         name: "description",
-        content: "Portfolio for Adam Harpur"
+        content: "Personal website for Adam Harpur"
       }
     ]
   },
