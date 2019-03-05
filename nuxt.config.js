@@ -16,7 +16,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '~/static/favicon.ico',
+        href: 'static/favicon.ico',
       },
     ],
     meta: [{
