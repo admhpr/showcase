@@ -35,7 +35,7 @@ export default [{
             },
             {
                 title: "Various other non tech jobs",
-                info: "In an other life I worked as a Cook, Painter, Bartender, Farmhand, Deckhand everyone has taught me something about how to work effectively.",
+                info: "I have worked as a cook, painter, bartender, farmhand, deckhand. All of which have taught me something about how to work effectively with different types of people.",
                 meta: "2008 - 2016"
             },
         ]
