@@ -9,10 +9,16 @@ export default {
   head: {
     title: 'adam["harpur"].i( )',
     link: [{
-      rel: "stylesheet",
-      type: 'text/css',
-      href: "https://unpkg.com/vue-github@0.9.22/dist/vueGithub.css"
-    }],
+        rel: "stylesheet",
+        type: 'text/css',
+        href: "https://unpkg.com/vue-github@0.9.22/dist/vueGithub.css"
+      },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'favicon.ico',
+      },
+    ],
     meta: [{
         charset: "utf-8"
       },
