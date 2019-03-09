@@ -8,8 +8,7 @@ export default {
   serverMiddleware: ["~/api/contact"],
   head: {
     title: 'adam["harpur"].i( )',
-    link: [
-      {
+    link: [{
         rel: "stylesheet",
         type: "text/css",
         href: "https://unpkg.com/vue-github@0.9.22/dist/vueGithub.css"
@@ -17,11 +16,10 @@ export default {
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "./favicon.ico"
+        href: "~/favicon.ico"
       }
     ],
-    meta: [
-      {
+    meta: [{
         charset: "utf-8"
       },
       {
@@ -35,7 +33,7 @@ export default {
       {
         hid: "image",
         name: "image",
-        content: "./static/img/meta-img-ah.png"
+        content: "~/static/img/meta-img-ah.png"
       },
       {
         hid: "description",
@@ -51,11 +49,11 @@ export default {
       ssr: false
     },
     {
-      src: "~plugins/vue-github",
+      src: "~/plugins/vue-github",
       ssr: false
     },
     {
-      src: "~plugins/vue-carousel",
+      src: "~/plugins/vue-carousel",
       ssr: false
     }
   ],
