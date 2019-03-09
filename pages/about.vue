@@ -45,10 +45,10 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="row">
-                  <a href="mailto:adam@harpur.io?subject=Job Offer" class="ah-btn">
+                  <!-- <a href="mailto:adam@harpur.io?subject=Job Offer" class="ah-btn">
                     <font-awesome-icon :icon="['fas', 'briefcase']"/>
                     <span>Hire Me For Work</span>
-                  </a>
+                  </a> -->
                   <br>
                   <!-- <a href="static/adam-harpur-cv-2019.pdf" class="ah-btn link-btn" download>
                     <font-awesome-icon :icon="['fas', 'download']"/>
