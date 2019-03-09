@@ -41,11 +41,10 @@
             <p>This isn't a job for me but a genuine love!</p>
 
             <!-- <div class="clearfix"></div>
-            <a href="#" class="symp-btn">Hire Me For Work</a>
-            
-            <a href="#" class="symp-btn link-btn">
-              <i class="ion-ios-download"></i>Download Resume
-            </a>-->
+            <a href="#" class="symp-btn">Hire Me For Work</a>-->
+            <a href="~/static/adam-harpur-cv-2019.pdf" class="symp-btn link-btn">
+              <i class="ion-ios-download"></i>Download CV
+            </a>
           </div>
         </div>
         <div class="about-icons section-block">
