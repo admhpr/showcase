@@ -50,10 +50,10 @@
                     <span>Hire Me For Work</span>
                   </a>
                   <br>
-                  <a href="/static/adam-harpur-cv-2019.pdf" class="ah-btn link-btn" download>
+                  <!-- <a href="static/adam-harpur-cv-2019.pdf" class="ah-btn link-btn" download>
                     <font-awesome-icon :icon="['fas', 'download']"/>
                     <span>Download CV</span>
-                  </a>
+                  </a> -->
                 </div>
               </div>
             </div>
