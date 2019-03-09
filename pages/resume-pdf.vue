@@ -1,6 +1,6 @@
 <template>
     <div>
-        <pdf src="./static/relativity.pdf"></pdf>
+        PDF
     </div>
 </template>
 
