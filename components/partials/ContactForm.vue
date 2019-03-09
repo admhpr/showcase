@@ -31,7 +31,7 @@
       </div>
 
       <div class="form-group text-center">
-        <button type="submit" class="symp-btn">Send Message</button>
+        <button type="submit" class="ah-btn">Send Message</button>
       </div>
       <div
         :class="{ 'text-center' : true, 'contact-message' : this.message.length > 0 && !hideMessage, 'contact-message-hidden': hideMessage}"

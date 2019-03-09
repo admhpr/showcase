@@ -171,6 +171,7 @@ body.section-show .section.active {
 
 .section-block {
     overflow: hidden;
+    margin-top: 2em !important;
 }
 
 #diamond-wrapper {
@@ -262,7 +263,7 @@ body.section-show .section.active {
 
     a,
     p {
-        color: #333;
+        color: $black;
         opacity: 0;
         filter: alpha(opacity=0);
         transition: opacity 0.35s, transform 0.35s;
@@ -271,12 +272,12 @@ body.section-show .section.active {
 
     &:hover {
         h2 {
-            color: #FFF
+            color: $white;
         }
 
         a,
         p {
-            color: #FFF;
+            color: $white;
             opacity: 1;
             filter: alpha(opacity=100);
             transform: translate3d(0, 0, 0);
@@ -303,4 +304,24 @@ body.section-show .section.active {
     white-space: pre-wrap;
     word-wrap: break-word;
     text-align: justify;
+}
+
+.ah-btn {
+    padding: 0.5em;
+    border: solid 1px lighten($black, 20);
+    border-radius: 3px;
+    margin: 1em;
+}
+
+p {
+    margin: 0.5em 0 !important;
+}
+
+a {
+    color: $nuxt-green;
+
+    &:hover {
+        text-decoration: none;
+        color: darken($nuxt-green, 20);
+    }
 }
