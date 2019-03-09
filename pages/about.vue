@@ -11,6 +11,8 @@
           </div>-->
           <div class="col-md-10">
             <p>
+              Hello! I'm an <a href="http://typelogic.com/intp.html">INTP</a> (apparently) who loves building things online!
+
               Being a developer to me is more than just writing code. It's about solving real problems, algorithmically and
               otherwise. Nothing gives me more satisfaction than creating a tool that solves a problem for someone in the real world.
               That's what it's all about. How do we as people make these machines serve a purpose. How we tell our story
@@ -43,7 +45,8 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="row">
-                  <a href="#" class="ah-btn">
+                  <a href="mailto:adam@harpur.io?subject=Job Offer" class="ah-btn">
+                    <font-awesome-icon :icon="['fas', 'briefcase']"/>
                     <span>Hire Me For Work</span>
                   </a>
                   <br>
