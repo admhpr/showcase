@@ -30,7 +30,7 @@
             </div>
             <div class="row">
               <div class="col-lg-10">
-                <vue-github :showFeed="false" username="harps116"></vue-github>
+                <vue-github username="harps116"></vue-github>
               </div>
             </div>
           </div>

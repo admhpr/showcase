@@ -61,14 +61,14 @@
             </div>
           </div>
         </div>
-        <div class="about-icons section-block">
-          <info-diamonds :data="softSkills"/>
-        </div>
-        <section-container title="Open Source Activity">
+        <section-container title="Additional Info">
           <template v-slot:content>
-            <div class="col-lg-10 offset-lg-1">
-              <vue-github class="vue-github" username="harps116"/>
+            <div class="about-icons section-block">
+              <info-diamonds :data="softSkills"/>
             </div>
+            <time-line :data="resume"/>
+            <info-diamonds title="Hobbies" :data="hobbies"/>
+            <skills id="skills"/>
           </template>
         </section-container>
       </template>
@@ -80,22 +80,28 @@
 import SectionContainer from "~/components/containers/Section";
 import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import ImageStrip from "~/components/sections/ImageStrip";
+import Skills from "~/components/sections/Skills";
+import TimeLine from "~/components/partials/TimeLine";
 
 // data
 import softSkills from "~/data/soft-skills";
-import imageSetOne from "~/data/image-strips/set-one";
+import hobbies from "~/data/hobbies";
+import resume from "~/data/resume";
 
 export default {
   data: function() {
     return {
       softSkills,
-      imageSetOne
+      hobbies,
+      resume,
     };
   },
   components: {
     InfoDiamonds,
     ImageStrip,
-    SectionContainer
+    SectionContainer,
+    Skills,
+    TimeLine
   }
 };
 </script>
