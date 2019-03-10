@@ -21,7 +21,7 @@
           </li>
 
           <li>
-            <nuxt-link to="/docs/resume">Resume</nuxt-link>
+            <a href="/docs/resume">Resume</a>
           </li>
 
           <li>
