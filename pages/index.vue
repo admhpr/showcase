@@ -21,7 +21,7 @@
           </li>
 
           <li>
-            <a href="/docs/resume">Resume</a>
+            <a href="https://adam.harpur.io/docs/resume">Resume</a>
           </li>
 
           <li>
