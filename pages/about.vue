@@ -14,11 +14,13 @@
               Hello! I'm an <a href="http://typelogic.com/intp.html">INTP</a> (apparently) who loves building things online.
 
               Being a developer to me is more than just writing code. It's about solving real problems, algorithmically and
-              otherwise. Nothing gives me more satisfaction than creating a tool that solves a problem for someone in the real world.
+              otherwise. 
+            </p>
+            <p>
+              Nothing gives me more satisfaction than creating a tool that solves a problem for someone in the real world.
               That's what it's all about. How do we as people make these machines serve a purpose. How we tell our story
               through code and beyond.
             </p>
-
             <p>
               In 2016 I fell into a course that taught basic web skills like HTML and CSS. I was hooked and have lived and
               breathed it since.
