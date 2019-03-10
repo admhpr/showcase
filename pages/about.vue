@@ -11,7 +11,7 @@
           </div>-->
           <div class="col-md-10">
             <p>
-              Hello! I'm an <a href="http://typelogic.com/intp.html">INTP</a> (apparently) who loves building things online!
+              Hello! I'm an <a href="http://typelogic.com/intp.html">INTP</a> (apparently) who loves building things online.
 
               Being a developer to me is more than just writing code. It's about solving real problems, algorithmically and
               otherwise. Nothing gives me more satisfaction than creating a tool that solves a problem for someone in the real world.
