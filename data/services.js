@@ -1,6 +1,6 @@
 export default [{
         title: "Web Development",
-        info: "Build the site of you dreams using the latest and greatest tech".
+        info: "Build the site of you dreams using the latest and greatest tech"
     },
     {
         title: "Frontend Contracting",
