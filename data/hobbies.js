@@ -8,7 +8,7 @@ export default [{
     },
     {
         title: "Health and Wellness",
-        info: "I believe that staying physically fit is vital to overall well being and a great way to destress.."
+        info: "I believe that staying physically fit is vital to overall well being and a great way to destress."
     },
     {
         title: "Meditation/Focused Time",
