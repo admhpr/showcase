@@ -3,7 +3,7 @@
     <div id="diamond-wrapper">
       <div class="transition-mask"></div>
 
-      <div class="front-person-img fadeIn">
+      <div class="front-person-img expandDiamond fadeIn" style="{}">
         <img src="~/assets/img/me.png" alt="portfolio">
       </div>
 
@@ -48,6 +48,10 @@
 
 <script>
 export default {
-  layout: "landing"
+  layout: "landing",
+  data: function() {
+    return {};
+  },
+  created() {}
 };
 </script>

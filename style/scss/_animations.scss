@@ -10,6 +10,17 @@
     }
 }
 
+@keyframes expandDiamond {
+    from {
+        opacity: 0;
+        width: 0;
+    }
+
+    to {
+        opacity: 1;
+        width: $diamond-demension;
+    }
+}
 
 @keyframes fadeInDown {
     from {
@@ -18,7 +29,7 @@
     }
 
     to {
-        opacity: 1;
+
         transform: translate3d(0, 0, 0);
     }
 }
@@ -79,4 +90,8 @@
 
 .rotateIn {
     animation: rotateIn 2s ease-in-out;
+}
+
+.expandDiamond {
+    animation: expandDiamond 1s;
 }
