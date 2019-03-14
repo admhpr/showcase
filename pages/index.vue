@@ -14,7 +14,7 @@
         
         <span class="t3">Developer</span>
       </div>
-      <nav class="nav-links fadeIn">
+      <nav class="nav-links fadeInNav">
         <ul>
           <li class="fadeInUp">
             <nuxt-link to="/about">About</nuxt-link>
