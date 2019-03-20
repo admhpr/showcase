@@ -7,7 +7,7 @@ export default {
   script: [],
   serverMiddleware: ["~/api/contact"],
   head: {
-    title: 'a̷d̵a̷m̷[̷h̸a̷r̷p̸u̸r̴]̷.̵i̵o̴',
+    title: 'adam["harpur"].i̵o̴',
     link: [{
       rel: "stylesheet",
       type: "text/css",
