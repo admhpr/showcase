@@ -29,7 +29,7 @@
             - My primary language is JavaScript. I can also write PHP, Python and I am happy to learn any other language or 
               framework aslong as I am given the time and resources to do so.
 
-            - I have used strongly typed languages and enjoy using them
+            - I have used strongly typed languages such as TypeScript (and a little Java in school) and enjoy using them.
 
             - I like to work in teams that communicate well and open the doors to collabaration.
 

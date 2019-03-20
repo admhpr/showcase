@@ -61,7 +61,7 @@
 
     100% {
         transform-origin: center;
-        transform: translate3d(0, 0, -45deg);
+        transform: translate3d(0, 0, 45deg);
         opacity: 1;
     }
 }
@@ -93,5 +93,6 @@
 }
 
 .expandDiamond {
-    animation: expandDiamond 1s;
+    animation: expandDiamond 2s ease-in-out,
+        rotateIn 1s linear;
 }

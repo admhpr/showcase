@@ -3,7 +3,7 @@
     <div id="diamond-wrapper">
       <div class="transition-mask"></div>
 
-      <div class="front-person-img expandDiamond fadeIn" style="{}">
+      <div class="front-person-img expandDiamond" style="{}">
         <img src="~/assets/img/me.png" alt="portfolio">
       </div>
 
