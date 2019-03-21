@@ -11,7 +11,7 @@ export default [{
         info: "I believe that staying physically fit is vital to overall well being and a great way to destress."
     },
     {
-        title: "Meditation/Focused Time",
+        title: "Focused Time",
         info: "This is the best way I have found to stay on task and get the most from my day, mental training is just as important as physical training."
     },
 ]
