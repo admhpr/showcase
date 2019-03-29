@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="section-container active">
+    <section class="section-container active fadeIn">
       <div class="section-block">
         <div class="container">
           <section-title v-if="title" :title="title"></section-title>

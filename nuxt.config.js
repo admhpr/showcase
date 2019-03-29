@@ -51,12 +51,5 @@ export default {
       ssr: false
     }
   ],
-  transition: {
-    name: "fade",
-    mode: "out-in",
-    beforeEnter(el) {
-      console.log("Before enter...");
-    }
-  },
   optimizeCSS: true
 };
