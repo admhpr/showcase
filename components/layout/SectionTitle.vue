@@ -4,8 +4,9 @@
       <div class="row justify-content-center">
         <div class="col-md-6">
           <div class="section-title text-center">
+            <!-- TODO: ADD TOGGLE FOR ALT -->
             <h2 class="animate text-over-block">{{title}}</h2>
-            <span v-if="altContent">alt</span>
+            <span v-if="altContent">TESTING ALT</span>
             <div class="divider-draft center"></div>
           </div>
         </div>
