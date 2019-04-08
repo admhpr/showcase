@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <section-container :alt="true" title="About Me">
+    <section-container :altContent="true" title="About Me">
       <template v-slot:content>
         <div class="row">
           <!-- <div class="col-md-4">
