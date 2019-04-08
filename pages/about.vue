@@ -1,7 +1,7 @@
-
+  
 <template>
   <div>
-    <section-container :altContent="true" title="About Me">
+    <section-container title="About Me">
       <template v-slot:content>
         <div class="row">
           <!-- <div class="col-md-4">
@@ -68,7 +68,16 @@
             </div>
             <time-line :data="resume"/>
             <info-diamonds title="Hobbies" :data="hobbies"/>
+          </template>
+        </section-container>
+        <section-container title="Skills and Attributes">
+          <template v-slot:content>
             <skills id="skills"/>
+          </template>
+        </section-container>
+        <section-container title="Knowledge and Learning">
+          <template v-slot:content>
+            <knowledge/>
           </template>
         </section-container>
       </template>
@@ -76,11 +85,13 @@
   </div>
 </template>
 
+
 <script>
 import SectionContainer from "~/components/containers/Section";
 import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import ImageStrip from "~/components/sections/ImageStrip";
 import Skills from "~/components/sections/Skills";
+import Knowledge from "~/components/sections/Knowledge";
 import TimeLine from "~/components/partials/TimeLine";
 
 // data
@@ -101,6 +112,7 @@ export default {
     ImageStrip,
     SectionContainer,
     Skills,
+    Knowledge,
     TimeLine
   }
 };
@@ -116,4 +128,5 @@ export default {
   width: 100%;
 }
 </style>
+
 

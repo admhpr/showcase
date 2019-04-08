@@ -3,6 +3,7 @@
     <section class="section-container active fadeIn">
       <div class="section-block">
         <div class="container">
+          <!-- TODO -->
           <section-title v-if="title" :altContent="true" :title="title"></section-title>
         </div>
       </div>
