@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <section-container title="About Me">
+    <section-container :alt="true" title="About Me">
       <template v-slot:content>
         <div class="row">
           <!-- <div class="col-md-4">
@@ -11,10 +11,10 @@
           </div>-->
           <div class="col-md-10">
             <p>
-              Hello! I'm an <a href="http://typelogic.com/intp.html">INTP</a> (apparently) who loves building things online.
-
+              Hello! I'm an
+              <a href="http://typelogic.com/intp.html">INTP</a> (apparently) who loves building things online.
               Being a developer to me is more than just writing code. It's about solving real problems, algorithmically and
-              otherwise. 
+              otherwise.
             </p>
             <p>
               Nothing gives me more satisfaction than creating a tool that solves a problem for someone in the real world.
@@ -50,12 +50,12 @@
                   <!-- <a href="mailto:adam@harpur.io?subject=Job Offer" class="ah-btn">
                     <font-awesome-icon :icon="['fas', 'briefcase']"/>
                     <span>Hire Me For Work</span>
-                  </a> -->
+                  </a>-->
                   <br>
                   <!-- <a href="static/adam-harpur-cv-2019.pdf" class="ah-btn link-btn" download>
                     <font-awesome-icon :icon="['fas', 'download']"/>
                     <span>Download CV</span>
-                  </a> -->
+                  </a>-->
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default {
     return {
       softSkills,
       hobbies,
-      resume,
+      resume
     };
   },
   components: {

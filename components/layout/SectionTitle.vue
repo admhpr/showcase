@@ -5,6 +5,7 @@
         <div class="col-md-6">
           <div class="section-title text-center">
             <h2 class="animate text-over-block">{{title}}</h2>
+            <span v-if="alt">alt</span>
             <div class="divider-draft center"></div>
           </div>
         </div>
@@ -16,7 +17,8 @@
 <script>
 export default {
   props: {
-    title: { String, required: true }
+    title: { String, required: true },
+    alt: Boolean
   }
 };
 </script>
