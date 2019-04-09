@@ -313,9 +313,7 @@ body.section-show .section.active {
     margin: 1em;
 }
 
-p {
-    margin: 0.5em 0 !important;
-}
+
 
 a {
     color: $nuxt-green;
@@ -324,4 +322,14 @@ a {
         text-decoration: none;
         color: darken($nuxt-green, 20);
     }
+}
+
+// overrides
+
+p {
+    margin: 0.5em 0 !important;
+}
+
+.v-switch-label {
+    line-height: 25px !important;
 }

@@ -86,7 +86,7 @@
         <div class="row">
           <div class="fadeIn col-md-10">
             Don't like to read huh?
-            well here's the short version:
+            well here's the scoop at a glance:
           </div>
         </div>
       </template>
