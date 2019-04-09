@@ -7,7 +7,13 @@
             <h2 class="animate text-over-block">{{title}}</h2>
             <span v-if="altContent">TESTING ALT</span>
             <div class="divider-draft center"></div>
-            <toggle-button v-if="altContent" :value="false" color="#82C7EB" :sync="true"/>
+            <toggle-button
+              v-if="altContent"
+              :value="false"
+              color="#82C7EB"
+              :sync="true"
+              @change="onToggle"
+            />
           </div>
         </div>
       </div>
@@ -20,6 +26,11 @@ export default {
   props: {
     title: { String, required: true },
     altContent: Boolean
+  },
+  methods: {
+    onToggle: function() {
+      console.log("clicked");
+    }
   }
 };
 </script>
