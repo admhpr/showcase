@@ -6,7 +6,7 @@
     </p>
     <p>Web Application Developer, Northern Ireland native. Have lived in American and Australia. Love to make things.</p>
     <skills/>
-    <knowledge/>
+    <knowledge :showFeed="false"/>
   </div>
 </template>
 

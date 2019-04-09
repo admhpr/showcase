@@ -8,7 +8,7 @@
     <div class="row">
       <div class="col-lg-10">
         <no-ssr>
-          <vue-github username="harps116"></vue-github>
+          <vue-github username="harps116" :showFeed="showFeed"></vue-github>
         </no-ssr>
       </div>
     </div>
@@ -19,6 +19,9 @@
 import SectionContainer from "~/components/containers/Section";
 
 export default {
+  props: {
+    showFeed: { Boolean, default: true }
+  },
   data: function() {
     return {
       knowledgeBar: {
