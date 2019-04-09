@@ -7,15 +7,17 @@
             <h2 class="animate text-over-block">{{title}}</h2>
             <div class="divider-draft center"></div>
             <br>
-            <toggle-button
-              v-if="showButton"
-              :value="false"
-              color="#82C7EB"
-              width="95"
-              height="30"
-              :labels="{checked: 'Glance', unchecked: 'Read'}"
-              @change="evt => onToggle(evt)"
-            />
+            <no-ssr>
+              <toggle-button
+                v-if="showButton"
+                :value="false"
+                color="#82C7EB"
+                width="95"
+                height="30"
+                :labels="{checked: 'Glance', unchecked: 'Read'}"
+                @change="evt => onToggle(evt)"
+              />
+            </no-ssr>
           </div>
         </div>
       </div>
