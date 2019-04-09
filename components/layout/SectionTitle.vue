@@ -11,7 +11,7 @@
               :value="false"
               color="#82C7EB"
               :sync="true"
-              @change="onToggle"
+              @change="evt => onToggle(evt)"
             />
           </div>
         </div>
@@ -21,14 +21,15 @@
 </template>
 
 <script>
+import EventBus from "../utils/event-bus.js";
 export default {
   props: {
     title: { String, required: true },
-    showButton: Boolean
+    showButton: { Boolean, default: true }
   },
   methods: {
-    onToggle: function() {
-      console.log("clicked");
+    onToggle: function(evt) {
+      EventBus.$emit("button-toggled", { value: evt.value });
     }
   }
 };

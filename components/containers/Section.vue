@@ -16,7 +16,7 @@ import SectionTitle from "~/components/layout/SectionTitle";
 export default {
   props: {
     title: String,
-    showButton: { Boolean, default: false }
+    showButton: { Boolean, default: true }
   },
   components: {
     SectionTitle
