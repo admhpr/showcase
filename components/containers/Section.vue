@@ -3,7 +3,7 @@
     <section class="section-container active fadeIn">
       <div class="section-block">
         <div class="container">
-          <section-title v-if="title" :altContent="altContent" :title="title"></section-title>
+          <section-title v-if="title" :showButton="showButton" :title="title"></section-title>
         </div>
       </div>
       <slot name="content"></slot>
@@ -16,7 +16,7 @@ import SectionTitle from "~/components/layout/SectionTitle";
 export default {
   props: {
     title: String,
-    altContent: { Boolean, default: false }
+    showButton: { Boolean, default: false }
   },
   components: {
     SectionTitle

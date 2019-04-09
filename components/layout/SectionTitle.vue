@@ -5,10 +5,9 @@
         <div class="col-md-6">
           <div class="section-title text-center">
             <h2 class="animate text-over-block">{{title}}</h2>
-            <span v-if="altContent">TESTING ALT</span>
             <div class="divider-draft center"></div>
             <toggle-button
-              v-if="altContent"
+              v-if="showButton"
               :value="false"
               color="#82C7EB"
               :sync="true"
@@ -25,7 +24,7 @@
 export default {
   props: {
     title: { String, required: true },
-    altContent: Boolean
+    showButton: Boolean
   },
   methods: {
     onToggle: function() {
