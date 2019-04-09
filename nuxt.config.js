@@ -43,6 +43,10 @@ export default {
       ssr: false
     },
     {
+      src: "~/plugins/vue-toggle-button.js",
+      ssr: false
+    },
+    {
       src: "~/plugins/vue-github",
       ssr: false
     },

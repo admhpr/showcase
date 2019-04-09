@@ -17,6 +17,7 @@
 
 <script>
 import SectionContainer from "~/components/containers/Section";
+
 export default {
   data: function() {
     return {
