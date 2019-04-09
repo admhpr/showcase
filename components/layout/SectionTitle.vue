@@ -25,7 +25,7 @@ import EventBus from "../utils/event-bus.js";
 export default {
   props: {
     title: { String, required: true },
-    showButton: { Boolean, default: true }
+    showButton: { Boolean, default: false }
   },
   methods: {
     onToggle: function(evt) {

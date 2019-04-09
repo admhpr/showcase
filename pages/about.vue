@@ -1,7 +1,7 @@
   
 <template>
   <div>
-    <section-container title="About Me">
+    <section-container title="About Me" :showButton="true">
       <template v-slot:content>
         <div class="row">
           <!-- <div class="col-md-4">
@@ -80,6 +80,15 @@
             <knowledge/>
           </template>
         </section-container>
+      </template>
+      <!-- start altContent -->
+      <template v-slot:altContent>
+        <div class="row">
+          <div class="fadeIn col-md-10">
+            Don't like to read huh?
+            well here's the short version:
+          </div>
+        </div>
       </template>
     </section-container>
   </div>
