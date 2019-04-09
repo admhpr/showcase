@@ -84,9 +84,8 @@
       <!-- start altContent -->
       <template v-slot:altContent>
         <div class="row">
-          <div class="fadeIn col-md-10">
-            Don't like to read huh?
-            well here's the scoop at a glance:
+          <div class="col-md-10">
+            <glance/>
           </div>
         </div>
       </template>
@@ -101,6 +100,7 @@ import InfoDiamonds from "~/components/sections/InfoDiamonds";
 import ImageStrip from "~/components/sections/ImageStrip";
 import Skills from "~/components/sections/Skills";
 import Knowledge from "~/components/sections/Knowledge";
+import Glance from "~/components/sections/Glance";
 import TimeLine from "~/components/partials/TimeLine";
 
 // data
@@ -122,6 +122,7 @@ export default {
     SectionContainer,
     Skills,
     Knowledge,
+    Glance,
     TimeLine
   }
 };

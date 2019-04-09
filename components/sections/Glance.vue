@@ -1,0 +1,25 @@
+<template>
+  <div>
+    <p>
+      Don't like to read huh?
+      well here's the scoop at a glance:
+    </p>
+    <p>Web Application Developer, Northern Ireland native. Have lived in American and Australia. Love to make things.</p>
+    <skills/>
+    <knowledge/>
+  </div>
+</template>
+
+<script>
+import Skills from "~/components/sections/Skills";
+import Knowledge from "~/components/sections/Knowledge";
+export default {
+  components: {
+    Skills,
+    Knowledge
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+</style>
