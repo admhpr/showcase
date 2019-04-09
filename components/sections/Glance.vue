@@ -2,7 +2,7 @@
   <div>
     <p>
       Don't like to read huh?
-      well here's the scoop at a glance:
+      Well, here's the scoop at a glance:
     </p>
     <p>Web Application Developer, Northern Ireland native. Have lived in American and Australia. Love to make things.</p>
     <skills/>
