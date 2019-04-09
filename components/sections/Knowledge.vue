@@ -7,7 +7,9 @@
     </div>
     <div class="row">
       <div class="col-lg-10">
-        <vue-github username="harps116"></vue-github>
+        <no-ssr>
+          <vue-github username="harps116"></vue-github>
+        </no-ssr>
       </div>
     </div>
   </div>
