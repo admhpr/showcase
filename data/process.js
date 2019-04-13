@@ -1,6 +1,6 @@
 export default [{
         title: "Discuss",
-        info: "I get to grips with the problem that needs solved and whether my skill can provide a viable solution"
+        info: "I get to grips with the problem that needs solved and whether my skill can provide a viable solution."
     },
     {
         title: "Design",
