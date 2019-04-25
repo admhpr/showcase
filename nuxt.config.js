@@ -11,7 +11,7 @@ export default {
     link: [{
       rel: "stylesheet",
       type: "text/css",
-      href: "https://unpkg.com/vue-github@0.10.5/dist/vueGithub.css"
+      href: "https://unpkg.com/vue-github@0.10.7/dist/vueGithub.css"
     }],
     meta: [{
         charset: "utf-8"
