@@ -20,7 +20,7 @@
 
             - I value family, friends, truth, creativity, thought, care, exercise, disciplined practice and a good laugh now and again.
 
-            - I want to have a meaningful live and postively impact others around me.
+            - I want to have a meaningful live and positively impact others around me.
 
             ### Professional
 
@@ -46,7 +46,7 @@
             
             - I quite like Vue on the front end but have used React alongside TypeScript.
 
-            - I generally deploy to Digital Ocean, but would like to learn AWS.
+            - I generally deploy to Digital Ocean, but would like to learn AWS this year.
 
             - For managing projects, I just fit-in with whatever the team is using.
 
