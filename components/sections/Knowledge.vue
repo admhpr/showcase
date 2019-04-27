@@ -37,7 +37,7 @@ export default {
           },
           {
             name: "Courses Completed",
-            data: [3, 4, 4, 2]
+            data: [3, 4, 4, 4]
           }
         ]
       }
