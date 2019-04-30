@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>Don't like to read huh? Well, here's the scoop at a glance:</p>
-    <p>Web Application Developer, Northern Ireland native. Have lived in American and Australia. Love to make things.</p>
+    <p>Web Application Developer, Northern Ireland native. Have lived in America and Australia. Love to make things.</p>
     <skills/>
     <knowledge :showFeed="false"/>
   </div>

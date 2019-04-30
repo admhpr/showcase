@@ -19,6 +19,7 @@
           <div class="col-md-6"></div>
           <p class="text-center">
             &copy; adam.harpur.io {{year}}.
+            <br>
             Proudly made with
             <a
               href="https://nuxtjs.org/"
