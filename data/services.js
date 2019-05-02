@@ -12,6 +12,6 @@ export default [{
     },
     {
         title: "Lessons",
-        info: "Let me help you learn some web development skills or some general programming."
+        info: "Learn some web development skills or some general programming."
     },
 ]

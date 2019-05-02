@@ -8,11 +8,11 @@
           <carousel :data="testimonials"/>
         </div>
       </section-container>-->
-      <section-container title="Get in Touch">
+      <!-- <section-container title="Get in Touch">
         <div slot="content">
           <contact-form/>
         </div>
-      </section-container>
+      </section-container> -->
     </div>
   </section-container>
 </template>
