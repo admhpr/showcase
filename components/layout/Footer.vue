@@ -24,7 +24,7 @@
             <a
               href="https://nuxtjs.org/"
             >
-              <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt logo">
+              <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt">
             </a>
           </p>
         </div>

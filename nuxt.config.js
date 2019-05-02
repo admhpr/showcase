@@ -22,7 +22,7 @@ export default {
       },
       {
         name: "keywords",
-        content: "adam harpur, web developer"
+        content: "adam harpur, web developer, belfast, northern ireland, freelance"
       },
       {
         hid: "image",
@@ -32,7 +32,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "Personal website for Adam Harpur"
+        content: "Web developer based in Belfast"
       }
     ]
   },
