@@ -79,6 +79,6 @@ export default {
 <style scoped>
 .readme {
   padding: 1em;
-  font-size: 23px;
+  font-size: 23px !important;
 }
 </style>
