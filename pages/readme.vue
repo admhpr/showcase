@@ -18,7 +18,8 @@
 
             - I love to snowboard, surf and wakeboard and don't do it nearly as much as I'd like to.
 
-            - I value family, friends, truth, creativity, thought, care, exercise, disciplined practice and a good laugh now and again.
+            - I value family, friends, truth, creativity, thought, care, exercise, disciplined practice and a 
+              good laugh now and again.
 
             - I want to have a meaningful live and positively impact others around me.
 
@@ -44,18 +45,20 @@
             
             - Databases - whatever SQL or NoSQL is just fine.
             
-            - I quite like Vue on the front end but have used React alongside TypeScript.
+            - I quite like Vue on the front end but have used React alongside TypeScript along with
+              jQuery, AngularJS, Knocokout (and a host of other JS libs).
 
-            - I generally deploy to Digital Ocean, but would like to learn AWS this year.
+            - I generally deploy to Digital Ocean, but have used AWS.
 
             - For managing projects, I just fit-in with whatever the team is using.
 
             - I have a some DevOps experience with Docker, Ansible and Terraform.
 
-            - I use Linux for an OS, I can use other systems but I would rather not.
-            
+            - I use Linux for an OS (currently Arch), I can use other systems but I would rather not.
 
-            That's about it, thank you!
+            - vim > nano
+
+            That's about it, I look forward to working with you!
 
       </pre>
         </div>
@@ -74,4 +77,8 @@ export default {
 </script>
 
 <style scoped>
+.readme {
+  padding: 1em;
+  font-size: 23px;
+}
 </style>

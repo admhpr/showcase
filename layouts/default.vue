@@ -19,4 +19,7 @@ export default {
 
 <style>
 @import url("https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css");
+* {
+  font-size: 18px !important;
+}
 </style>
