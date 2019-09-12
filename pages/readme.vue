@@ -56,7 +56,9 @@
 
             - I use Linux for an OS (currently Arch), I can use other systems but I would rather not.
 
-            - vim > nano
+            - vim > nano when on a server
+
+            - vscode for a text editor
 
             That's about it, I look forward to working with you!
 
