@@ -1,9 +1,15 @@
 // @see https://nuxtjs.org/guide/configuration/
 export default {
+  generate: {
+    dir: "docs"
+  },
   css: [
     "@/style/scss/style.scss",
     "@fortawesome/fontawesome-svg-core/styles.css"
   ],
+  build: {
+    html: "minify"
+  },
   script: [],
   serverMiddleware: ["~/api/contact"],
   head: {
