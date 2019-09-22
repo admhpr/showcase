@@ -21,7 +21,7 @@
           </li>
 
           <li class="fadeInUp">
-            <a href="https://adam.harpur.io/docs/resume">Resume</a>
+            <a href="https://s3-eu-west-1.amazonaws.com/docs.harpur.io/adam-harpur-cv-2019.pdf">Resume</a>
           </li>
 
           <li class="fadeInUp">
@@ -35,9 +35,9 @@
             <a href="mailto:adam@harpur.io">Contact</a>
           </li>
 
-          <li class="fadeInUp">
+          <!-- <li class="fadeInUp">
             <a href="https://blog.harpur.io" data-section="blog">Blog</a>
-          </li>
+          </li> -->
         </ul>
       </nav>
 
