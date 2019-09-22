@@ -8,12 +8,15 @@ export default {
   serverMiddleware: ["~/api/contact"],
   head: {
     title: 'adam["harpur"].i̵o̴',
-    link: [{
-      rel: "stylesheet",
-      type: "text/css",
-      href: "https://unpkg.com/vue-github@0.10.7/dist/vueGithub.css"
-    }],
-    meta: [{
+    link: [
+      {
+        rel: "stylesheet",
+        type: "text/css",
+        href: "https://unpkg.com/vue-github@0.10.7/dist/vueGithub.css"
+      }
+    ],
+    meta: [
+      {
         charset: "utf-8"
       },
       {
@@ -22,7 +25,8 @@ export default {
       },
       {
         name: "keywords",
-        content: "adam harpur, web developer, belfast, northern ireland, freelance"
+        content:
+          "adam harpur, web developer, belfast, northern ireland, freelance"
       },
       {
         hid: "image",
