@@ -7,7 +7,7 @@
         </div>
         <div class="row">
           <div class="col-md-12">
-            <p class="text-center">
+            <p class="centered text-center">
               <span class="link">
                 <nuxt-link to="/acknowledgements">Acknowledgements</nuxt-link>
               </span>
@@ -17,16 +17,20 @@
         <div class="row">
           <div class="col-md-6"></div>
           <div class="col-md-6"></div>
-          <p class="text-center">
-            &copy; adam.harpur.io {{year}}.
+          <div class="centered text-center">
+            <span>
+              &copy; adam.harpur.io {{year}}.
+            </span>
             <br>
+            <span>
             Proudly made with
+            </span>
             <a
               href="https://nuxtjs.org/"
             >
               <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt">
             </a>
-          </p>
+          </div>
         </div>
       </div>
     </div>
@@ -50,3 +54,9 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+  .centered {
+    margin: auto;
+  }
+</style>
