@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "10"
+branches:
+  only:
+    - master
+jobs:
+  include:
+    - stage: build
+      script: npm run generate
