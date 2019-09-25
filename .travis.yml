@@ -11,7 +11,7 @@ jobs:
 deploy:
   provider: script
   github_token: "$GH_TOKEN"
-  script: git push origin head:master
+  script: bash deploy.sh
   on:
     branch: master
 env:
