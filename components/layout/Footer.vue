@@ -30,6 +30,12 @@
             >
               <img width="35px" src="../../assets/img/nuxt-logo.jpg" alt="nuxt">
             </a>
+            <span>
+              and frugally hosted on
+            </span>
+            <a href="https://github.com">
+              <img width="85px" src="../../assets/img/github-logo.png" alt="github">
+            </a>
           </div>
         </div>
       </div>
