@@ -1,19 +1,17 @@
 language: node_js
 node_js:
-- '10'
+  - "10"
 branches:
   only:
-  - master
+    - master
 jobs:
   include:
-  - stage: build
-    script: npm run generate
+    - stage: build
+      script: npm run generate
 deploy:
-  provider: pages
-  local_dir: docs
-  skip_cleanup: true
+  provider: script
   github_token: "$GH_TOKEN"
-  keep_history: true
+  script: git push origin head:master
   on:
     branch: master
 env:
