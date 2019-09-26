@@ -10,7 +10,7 @@ jobs:
       script: npm run generate
     - stage: deploy
       github_token: "$GH_TOKEN"
-      script: 'git add . && git commit -m "chore: deploy" && git push origin master'
+      script: echo deploying....
 env:
   global:
     secure: hRN8QtyIYF91KUwzvJKiG0AR6vg1k9TStb8wyUiIH2NZTvns/8K/ZP210/GOmxJkpBNzG3daXihTsnNEcWIKKwPE3aIw/hnIiyaXw46Dw1Y8yMIvVSXp2cmcuX4nrk0dufmhPhbl12aW92vT/AfTNgfFKayUVqFg2JMgnOgwv4BonsqhQxHd76POyFHYJ+gaMOUtXVgMb5o1yKsf2reHfc0JBpOtuJg4c5d3WkZPfwpKLOkrP+p60m8Xvn9H2uDaESdpEFhyVb25LXYOpYW2u0b3pq/FXbsaXPNn8BNQskCO+gB7A5dGBYGjj9Rj7gBVbjFhtEN+uugzIi6AydQ/NHdfY20/0P/vHYwm7rG214+YFUJZ5i9uc7G+FABRYuroUWmXLbjtAQzBzJ2DXMRTex86Y/Z/IIjw7PIpPjehohonFHK7FQrci1CLS+NMoK1gdQtqArBQHdrDqkyC0pT/0FREeODeWF8NsP4MTSz3C12+dLZ4uYnm7uKpqaMPd6+xEfaGwI8JXr9T+j+kEcCYPmsNlsEy9MDlDosgY6EmLUnHbKgUqr/XEvHDX6bjKNiklTgbTaK9Eetch+OGC9sHePa7v01O2WBQA9yMw2Kp5Nvh+9fYH7A1rI6HswMRftmu5xnbdd7w6AQBQ9FcZa/GSTPqVEww3wujV5isV/MKsDE=
