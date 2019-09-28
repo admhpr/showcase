@@ -18,9 +18,6 @@
           <div class="col-md-6"></div>
           <div class="col-md-6"></div>
           <div class="centered text-center">
-            <span>
-              &copy; adam.harpur.io {{year}}.
-            </span>
             <br>
             <span>
             Proudly made with
@@ -36,6 +33,9 @@
             <a href="https://github.com">
               <img width="85px" src="../../assets/img/github-logo.png" alt="github">
             </a>
+            <span>
+              &copy; adam.harpur.io {{year}}.
+            </span>
           </div>
         </div>
       </div>

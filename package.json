@@ -5,7 +5,8 @@
     "build": "nuxt build",
     "generate": "npm ci && nuxt generate",
     "clean": "pm2 delete all",
-    "deploy": "npm ci && npm run build && npm run clean && pm2 start ecosystem.config.js --only showcase"
+    "deploy": "bash ./deploy.sh",
+    "deploy:server": "npm ci && npm run build && npm run clean && pm2 start ecosystem.config.js --only showcase"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
