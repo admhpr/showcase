@@ -41,14 +41,22 @@
         </ul>
       </nav>
 
-      <div class="front-heading text-center"></div>
+      <div class="front-heading text-center">
+        <div class="row">
+          <social-links></social-links>
+        </div>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
+import SocialLinks from "~/components/partials/SocialLinks";
 export default {
   layout: "landing",
+  components: {
+    SocialLinks
+  },
   data: function() {
     return {};
   },

@@ -3,9 +3,6 @@
     <div class="footer bg-lightgray section-block">
       <div class="container">
         <div class="row">
-          <social-links></social-links>
-        </div>
-        <div class="row">
           <div class="col-md-12">
             <p class="centered text-center">
               <span class="link">
@@ -18,7 +15,6 @@
           <div class="col-md-6"></div>
           <div class="col-md-6"></div>
           <div class="centered text-center">
-            <br>
             <span>
             Proudly made with
             </span>
@@ -33,6 +29,7 @@
             <a href="https://github.com">
               <img width="85px" src="../../assets/img/github-logo.png" alt="github">
             </a>
+            <br>
             <span>
               &copy; adam.harpur.io {{year}}.
             </span>
@@ -44,15 +41,13 @@
 </template>
 
 <script>
-import SocialLinks from "~/components/partials/SocialLinks";
+
 export default {
   head: {
     meta: [{ name: "viewpart", content: "width=device-width, initial-scale=1" }]
   },
   link: [{ rel: "stylesheet", href: "bootstrap/css/bootstrap.min.css" }],
-  components: {
-    SocialLinks
-  },
+
   computed: {
     year: function() {
       return new Date().getFullYear();
