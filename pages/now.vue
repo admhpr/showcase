@@ -40,7 +40,4 @@ export default {
 </script>
 
 <style scoped>
-.now {
-  padding: 1em 10em;
-}
 </style>
