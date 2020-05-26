@@ -1,18 +1,24 @@
 /*!
- * Vue.js v2.6.10
- * (c) 2014-2019 Evan You
- * Released under the MIT License.
- */
-
-/*!
-  * vue-router v3.0.7
-  * (c) 2019 Evan You
+  * vue-router v3.2.0
+  * (c) 2020 Evan You
   * @license MIT
   */
 
 /*!
+ * ApexCharts v3.19.2
+ * (c) 2018-2020 Juned Chhipa
+ * Released under the MIT License.
+ */
+
+/*!
  * Font Awesome Free 5.0.13 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+/*!
+ * Vue.js v2.6.11
+ * (c) 2014-2019 Evan You
+ * Released under the MIT License.
  */
 
 /*!
@@ -22,8 +28,8 @@
  */
 
 /*!
- * ApexCharts v3.8.6
- * (c) 2018-2019 Juned Chhipa
+ * vue-client-only v2.0.0
+ * (c) 2019-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
  */
 
@@ -33,8 +39,10 @@
  * Released under the MIT License.
  */
 
-/*!
- * vue-client-only v2.0.0
- * (c) 2019-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
+/*! svg.draggable.js - v2.2.2 - 2019-01-08
+* https://github.com/svgdotjs/svg.draggable.js
+* Copyright (c) 2019 Wout Fierens; Licensed MIT */
+
+/*! svg.filter.js - v2.0.2 - 2016-02-24
+* https://github.com/wout/svg.filter.js
+* Copyright (c) 2016 Wout Fierens; Licensed MIT */

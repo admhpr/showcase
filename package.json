@@ -18,7 +18,7 @@
     "nodemailer": "^5.1.1",
     "nuxt": "^2.12.2",
     "validator": "^10.11.0",
-    "vue": "^2.6.10",
+    "vue": "^2.6.11",
     "vue-apexcharts": "^1.5.0",
     "vue-carousel": "^0.17.0",
     "vue-github": "^0.11.3",
